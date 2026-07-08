@@ -6,7 +6,7 @@ h1 {
 }
 .navbar table{
     background-color: pink;
-    overflow: hidden;
+    overflow: auto;
      justify-content: space-evenly;
     display: flex;
     border-collapse: collapse;
