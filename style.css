@@ -5,7 +5,7 @@ body{
 h1 {
     text-align: center;
 }
-
+<!--style for navigation bar-->
 .navbar table{
     background-color: pink;
     overflow: hidden;
