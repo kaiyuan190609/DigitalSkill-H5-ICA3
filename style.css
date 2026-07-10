@@ -6,45 +6,9 @@ h1 {
     text-align: center;
 }
 /* Nav bar styling */
-#navbar{
-    display: none;
-}
-.navbar-icon{
-    font-size: 30px;
-    padding: 20px;
-    background: #e960e2;
-    color: black;
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 10px;
-}
-.navbar{
-    display: none;
-    background: #444;
-}
-.navbar table{
-    list-style: none;
-    background-color: pink;
-    overflow: hidden;
-     justify-content: space-evenly;
-    display: flex;
-    border-collapse: collapse;
-}
-.navbar table tr a{
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    height: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #fff;
-}
-    #navbar:checked + .navbar-icon + .navbar{display: block;}
 .navbar table{
     background-color: pink;
-    overflow: hidden;
+    overflow: auto;
      justify-content: space-evenly;
     display: flex;
     border-collapse: collapse;
