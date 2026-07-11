@@ -45,3 +45,62 @@ h1 {
     width: auto;
     vertical-align: middle;
 }
+/* Search bar styling */
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.search input[type="text"] {
+    padding: 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    width: 210px;
+    height: 20px;
+}
+.search button{
+    padding: 12px;
+    height: 45px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.search button img {
+    height: 35px;
+    width: auto;
+}
+.search button:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Table styling */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width:100%;
+}
+table caption{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+th{
+    background-color: rgb(217, 189, 98);
+    font-weight: bold;
+    height: 50px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
