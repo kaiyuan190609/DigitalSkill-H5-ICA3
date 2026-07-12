@@ -106,3 +106,9 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+tr:nth-child(even) {
+    background-color: #e6e5e5;
+}
+tr:hover {
+    background-color: #f4e4ff;
+}
