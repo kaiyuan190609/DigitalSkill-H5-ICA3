@@ -81,34 +81,34 @@ h1 {
 }
 
 /* Table styling */
-table, th, td {
+.Product-table table,.Product-table th, .Product-table td {
     border: 1.3px solid black;
     border-collapse: collapse;
 }
-table{
+.Product-table table{
     width:97%;
     margin-left: auto;
     margin-right: auto;
 }
-table caption{
+.Product-table caption{
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 5px;
     text-decoration: underline;
     text-underline-offset: 6px;
 }
-th{
+.Product-table th{
     background-color: rgb(217, 189, 98);
     font-weight: bold;
     height: 50px;
 }
-th, td {
+.Product-table th, .Product-table td {
     padding: 10px;
     text-align: left;
 }
-tr:nth-child(even) {
+.Product-table tr:nth-child(even) {
     background-color: #e6e5e5;
 }
-tr:hover {
+.Product-table tr:hover {
     background-color: #f4e4ff;
 }
