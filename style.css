@@ -6,7 +6,7 @@ h1 {
     text-align: center;
 }
 /* Nav bar styling */
-.navbar table1{
+.navbar table{
     background-color: pink;
     overflow: auto;
      justify-content: space-evenly;
