@@ -114,12 +114,11 @@ h1 {
 }
 
 
-/*Filter Button*/
+/*Filter Button styling*/
 input[type="radio"] {
   display: none;
 }
 
-/* Style buttons */
 label {
   padding: 8px 12px;
   background: #eee;
@@ -136,6 +135,7 @@ input:checked + label {
   display: table-row;
 }
 
+/*css filtering system*/
  input:checked ~ .Product-table, .products {
   display: none;
 }
@@ -158,9 +158,6 @@ input:checked + label {
 
 #TA:checked ~ .Tech{
   display: table-row;
-}
-.Product-table tr:hover {
-    background-color: #f4e4ff;
 }
 
 /*Top Picks Table styling */
