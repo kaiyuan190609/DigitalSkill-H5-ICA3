@@ -110,6 +110,50 @@ th, td {
 tr:nth-child(even) {
     background-color: #e6e5e5;
 }
-tr:hover {
-    background-color: #f4e4ff;
+
+
+/*Filter Button*/
+input[type="radio"] {
+  display: none;
+}
+
+/* Style buttons */
+label {
+  padding: 8px 12px;
+  background: #eee;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+input:checked + label {
+  background: #333;
+  color: white;
+}
+
+.product {
+  display: table-row;
+}
+
+ input:checked ~ .Product-table, .products {
+  display: none;
+}
+
+#all:checked ~ .Product-table, .products {
+  display: table-row;
+}
+
+#AnC:checked ~ .AC {
+  display: table-row;
+}
+
+#Calc:checked ~ .Cal {
+  display: table-row;
+}
+
+#WI:checked ~ .Write{
+  display: table-row;
+}
+
+#TA:checked ~ .Tech{
+  display: table-row;
 }
