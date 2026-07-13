@@ -87,7 +87,7 @@ h1 {
     border: 1.3px solid black;
     border-collapse: collapse;
 }
-.Product-table table{
+.Product-table{
     width:97%;
     margin-left: auto;
     margin-right: auto;
@@ -119,7 +119,6 @@ input[type="radio"] {
   display: none;
 }
 
-/* Style buttons */
 label {
   padding: 8px 12px;
   background: #eee;
