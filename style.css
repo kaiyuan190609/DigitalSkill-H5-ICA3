@@ -5,6 +5,7 @@ body{
 h1 {
     text-align: center;
 }
+
 /* Nav bar styling */
 .navbar table{
     background-color: pink;
@@ -34,7 +35,7 @@ h1 {
     color: rgb(255, 0, 43);
 }
 
-
+/*Logo N name styling*/
 .NameIcon{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -45,6 +46,7 @@ h1 {
     width: auto;
     vertical-align: middle;
 }
+
 /* Search bar styling */
 .search {
     flex-grow: 1;
@@ -80,7 +82,7 @@ h1 {
     margin-top: 20px;
 }
 
-/* Table styling */
+/* Product Table styling */
 .Product-table table,.Product-table th, .Product-table td {
     border: 1.3px solid black;
     border-collapse: collapse;
@@ -112,4 +114,49 @@ h1 {
 }
 .Product-table tr:hover {
     background-color: #f4e4ff;
+}
+
+/*Top Picks Table styling */
+.TPtitle{
+    font-size: 225%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.TPtable{
+    display: flex;
+    justify-content: center;
+}
+
+.TP1{
+    display: block;
+    background-color: rgb(217, 189, 98);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.TP1:hover{
+    transform: translateY(-25px);
+    background-color: rgb(255, 224, 123);
+}
+
+.TP1 img{
+    height: 250px;
+    width: auto;
+    border: 20px;
+}
+
+.TP1 h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.TPtable a{
+    text-decoration: none;
+    color: black;
 }
