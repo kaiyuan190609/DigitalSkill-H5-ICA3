@@ -53,15 +53,15 @@ h1 {
 }
 
 table.Product-table{
-     border-collapse: collapse;
+     border-collapse: collapse; 
 }
 
 .Product-table{
+    width: 97%;
     vertical-align: center;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .Product-table caption{
     font-size: 28px;
