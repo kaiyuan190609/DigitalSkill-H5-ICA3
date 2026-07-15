@@ -1,0 +1,51 @@
+<!--GUILLERMO RICHARD JR ROSARIO, 261190X-->
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<nav class="navbar">
+         <table>
+            <tr>
+                <td><a href="Homepage.html">Home</a></td>
+                <td><a href="Productpage.html">Products</a></td>
+                <td><a href="Homepage.html">Order</a></td>
+                <td><a href="Contact.html">Feedback/Enquiries</a></td>
+                <td><a href="Homepage.html">Study Tips</a></td>
+                <td><a href="Homepage.html">About Us</a></td>
+            </tr>
+            </table>
+</nav>
+<head>
+  <body>
+     <div class="secretintern">
+     <center><h1><span style="color: pink;">Contact Us and Feedback form</span></h1>
+      <p>Our contact number:82922506</p>
+      <p>Email:PencilBox@gmail.com</p>
+          <label  for="custname">Your name:</label>
+         <input type="text" name="custname" id="custname" size="30"
+         placeholder="E.g John grace" required>
+         <br>
+         <label for="email">Your email:</label>
+         <input type="email" name="email" id="email" size="30" placeholder="E.g you@example.com" required>
+         <br>
+        
+     <br>   <form action="thankyou.html" method="get">
+            <labelfor="feedback">Your feedback:</label>
+            <textarea name="feedback" id="feedback" rows="5" cols="30" placeholder="E.g I like your website!" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+             </form>
+     </br>
+     <label for="rating">Rate our services!(from 0 to 10)</label>
+     <input type="range" 
+     id="rating"  
+     min="0" max="10" 
+     step="1" value="5"
+     oninput="this.nextElementSibling.value = this.value">
+     <output for="rating">5</output>
+     </center>
+  </div>
+  </body>
+</head>
+        
