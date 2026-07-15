@@ -147,17 +147,22 @@ input:checked + label {
 div.TP1{
     display: block;
     background-color: rgb(217, 189, 98);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
     transform: translateY(-10px);
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px lightpink;
+    transition: 0.2s;
 }
 
 div.TP1:hover{
-    transform: translateY(-25px);
+    transform: translateY(--50px);
     background-color: rgb(255, 224, 123);
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .TP1 img{
@@ -177,4 +182,14 @@ div.TP1:hover{
 .TPtable a{
     text-decoration: none;
     color: black;
+}
+
+.HParrow{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    transform: translateY(-200px);
+    margin: 0 10px;
+    
 }
