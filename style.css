@@ -62,6 +62,7 @@ table.Product-table{
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    display:inline-table;
 }
 .Product-table caption{
     font-size: 28px;
@@ -102,32 +103,32 @@ input:checked + label {
 }
 
 .product {
-  display: table-row;
+  display: inline-table;
 }
 
 /*css filtering system*/
- input:checked ~ .Product-table {
+input:checked ~ .table1 .Product-table {
   display: none;
 }
 
-#all:checked ~ .Product-table {
-  display: table-row;
+#all:checked ~ .table1 .Product-table {
+  display: inline-table;
 }
 
-#AnC:checked ~ .AC {
-  display: table-row;
+#AnC:checked ~ .table1 .AC {
+  display: inline-table;
 }
 
-#Calc:checked ~ .Cal {
-  display: table-row;
+#Calc:checked ~ .table1 .Cal {
+  display: inline-table;
 }
 
-#WI:checked ~ .Write{
-  display: table-row;
+#WI:checked ~ .table1 .Write{
+  display: inline-table;
 }
 
-#TA:checked ~ .Tech{
-  display: table-row;
+#TA:checked ~ .table1 .Tech{
+  display: inline-table;
 }
 
 /*Top Picks Table styling */
