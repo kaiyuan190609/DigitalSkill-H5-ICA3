@@ -142,6 +142,9 @@ input:checked + label {
 .TPtable{
     display: flex;
     justify-content: center;
+    width: auto;
+    align-items: center;
+
 }
 
 div.TP1{
@@ -156,7 +159,10 @@ div.TP1{
     border-radius: 12px;
     box-shadow: 3px 3px 5px lightpink;
     transition: 0.2s;
+    transform:scale(auto);
+        overflow: hidden;
 }
+
 
 div.TP1:hover{
     transform: translateY(--50px);
