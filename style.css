@@ -47,7 +47,7 @@ h1 {
     vertical-align: middle;
 }
 
-/* Product Table styling(ANG KAI YUAN) */
+/* Product Table styling */
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
 }
@@ -58,11 +58,11 @@ table.Product-table{
 
 .Product-table{
     width: 97%;
+    display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-    display:inline-table;
 }
 .Product-table caption{
     font-size: 28px;
@@ -81,11 +81,11 @@ table.Product-table{
     text-align: left;
 }
 .Product-table tr:nth-child(even) {
-    background-color: #e6e5e5;
+    background-color: #cacaca;
 }
 
 
-/*Filter Button styling(ANG KAI YUAN)*/
+/*Filter Button styling*/
 input[type="radio"] {
   display: none;
 }
@@ -106,8 +106,8 @@ input:checked + label.filterbutton {
   display: inline-table;
 }
 
-/*css filtering system(ANG KAI YUAN)*/
-input:checked ~ .table1 .Product-table {
+/*css filtering system*/
+ input:checked ~ .table1 .Product-table {
   display: none;
 }
 
@@ -168,7 +168,7 @@ div.TP1{
 div.TP1:hover{
     transform: translateY(50px);
     background-color: rgb(255, 224, 123);
-    transform: scale(1);
+    transform: scale(0.95);
     transition: 0.2s;
 }
 
@@ -178,11 +178,11 @@ div.TP1:hover{
     border: 20px;
 }
 
-.TP1 h4{
+.TP1 h3{
     text-align: center;
     font-size: auto;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
     margin-top: 0px;
 }
 
@@ -207,7 +207,7 @@ div.Reviewcard:hover{
     box-shadow: 3px 3px 15px rgb(58, 58, 58);
 }
 
-.Reviewcard h4{
+.Reviewcard h3{
     text-align: left;
     font-size: auto;
     margin-bottom:0;
@@ -268,25 +268,25 @@ input:checked + label.HPpages {
     transition: 0.2s;
 }
 /*HomePage tabs logic(GOH YEE MINH)*/
-#Reviews:checked ~ .HomeViewT h3.TPtitle{
+#Reviews:checked ~ .HomeViewT h2.TPtitle{
     transform: translateX(-1500px);
     transition: 0.3s;
     visibility: hidden;
 }
 
-#BestSellers:checked ~.HomeViewT h3.TPtitle{
+#BestSellers:checked ~.HomeViewT h2.TPtitle{
     transform: translateX(75px);
     transition: 0.3s;
     visibility: visible;
 }
 
-#BestSellers:checked ~ .HomeViewT h3.Reviews{
+#BestSellers:checked ~ .HomeViewT h2.Reviews{
     transition: 0.3s;
     transform: translateX(1500px);
     visibility: hidden;
 }
 
-#Reviews:checked ~.HomeViewT h3.Reviews{
+#Reviews:checked ~.HomeViewT h2.Reviews{
     transform: translateX(-125px);
     transition: 0.3s;
     visibility: visible;
@@ -316,33 +316,89 @@ input:checked + label.HPpages {
     visibility: visible;
 }
 
-/*Study-tips page details style(SHYEEN ONG SERN YI)*/
+/*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 60vh;
+    min-height: 20vh;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .Study-tips-main details {
-    width: min(90%, 420px);
-    margin: 5px 0;
+    width: min(90%, 1000px);
+    margin: 2.5px 0;
     padding: 12px 16px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: white;
-    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+    background-image: url("Math background.png"); /*This image is AI generated*/
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .Study-tips-main summary {
     text-align: center;
     font-size: medium;
-    font-weight:bold;
+    font-weight: bold;
     display: block;
-    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+    color: white;
+}
+
+.Study-tips-main p {
+    color: white;
+}
+
+.Study-tips-main h1 {
+    text-align: center;
+    color: pink;
 }
 
 
+
+
+.vision{
+background: pink;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.mission{
+ background: pink;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.story{
+background: pink;
+padding: 50px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.answer{
+ background: pink;
+padding: 50px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+font-size: larger;
+}
+
+.question{
+    font-size:larger;
+}
