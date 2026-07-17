@@ -315,3 +315,34 @@ input:checked + label.HPpages {
     transition: 0.3s;
     visibility: visible;
 }
+
+/*Study-tips page details style(SHYEEN ONG SERN YI)*/
+.Study-tips-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 60vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Study-tips-main details {
+    width: min(90%, 420px);
+    margin: 5px 0;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+}
+
+.Study-tips-main summary {
+    text-align: center;
+    font-size: medium;
+    font-weight:bold;
+    display: block;
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+}
+
+
