@@ -131,7 +131,7 @@ input:checked ~ .table1 .Product-table {
   display: inline-table;
 }
 
-/*Top Picks Table styling(GOH YEE MINH) */
+/*Top Picks and reviews Table styling(GOH YEE MINH) */
 .TPtitle, .Reviews{
     font-size: 225%;
     font-family: 'Courier New', Courier, monospace;
@@ -148,6 +148,7 @@ input:checked ~ .table1 .Product-table {
 
 }
 
+/*best seller styling*/
 div.TP1{
     display: block;
     background-color: rgb(217, 189, 98);
@@ -163,7 +164,6 @@ div.TP1{
     transform:scale(0.9);
     overflow: hidden;
 }
-
 
 div.TP1:hover{
     transform: translateY(50px);
@@ -186,7 +186,42 @@ div.TP1:hover{
     margin-top: 0px;
 }
 
-.TPtable a{
+/*review styling*/
+div.Reviewcard{
+    display: block;
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgb(58, 58, 58);
+    transition: 0.2s;
+    overflow: hidden;
+    height: 100px;
+    width: 250px;
+}
+
+div.Reviewcard:hover{
+    transform: translateY(-25px);
+    transition: 0.2s;
+    box-shadow: 3px 3px 15px rgb(58, 58, 58);
+}
+
+.Reviewcard h4{
+    text-align: left;
+    font-size: auto;
+    margin-bottom:0;
+    margin-top: 0px;
+    color: gold;
+}
+
+p.reviewtext{
+    font-style: italic;
+}
+
+
+
+.TPtable a, .reviewtab a{
     text-decoration: none;
     color: black;
 }
@@ -264,7 +299,7 @@ input:checked + label.HPpages {
 }
 
 #BestSellers:checked ~.tabs .TPtable{
-    transform: translateX(390px);
+    transform: translateX(490px);
     transition: 0.3s;
     visibility: visible;
 }
