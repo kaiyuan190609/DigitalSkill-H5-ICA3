@@ -58,6 +58,7 @@ table.Product-table{
 
 .Product-table{
     width: 97%;
+    display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
     margin-left: auto;
@@ -89,45 +90,45 @@ input[type="radio"] {
   display: none;
 }
 
-label {
+label.filterbutton {
   padding: 8px 12px;
   background: #eee;
   cursor: pointer;
   margin-right: 5px;
 }
 
-input:checked + label {
+input:checked + label.filterbutton {
   background: #333;
   color: white;
 }
 
 .product {
-  display: table-row;
+  display: inline-table;
 }
 
 /*css filtering system*/
- input:checked ~ .Product-table {
+ input:checked ~ .table1 .Product-table {
   display: none;
 }
 
-#all:checked ~ .Product-table {
-  display: table-row;
+#all:checked ~ .table1 .Product-table {
+  display: inline-table;
 }
 
-#AnC:checked ~ .AC {
-  display: table-row;
+#AnC:checked ~ .table1 .AC {
+  display: inline-table;
 }
 
-#Calc:checked ~ .Cal {
-  display: table-row;
+#Calc:checked ~ .table1 .Cal {
+  display: inline-table;
 }
 
-#WI:checked ~ .Write{
-  display: table-row;
+#WI:checked ~ .table1 .Write{
+  display: inline-table;
 }
 
-#TA:checked ~ .Tech{
-  display: table-row;
+#TA:checked ~ .table1 .Tech{
+  display: inline-table;
 }
 
 /*Top Picks and reviews Table styling(GOH YEE MINH) */
