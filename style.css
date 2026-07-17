@@ -47,7 +47,7 @@ h1 {
     vertical-align: middle;
 }
 
-/* Product Table styling(ANG KAI YUAN) */
+/* Product Table styling */
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
 }
@@ -62,7 +62,6 @@ table.Product-table{
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-    display:inline-table;
 }
 .Product-table caption{
     font-size: 28px;
@@ -85,53 +84,53 @@ table.Product-table{
 }
 
 
-/*Filter Button styling(ANG KAI YUAN)*/
+/*Filter Button styling*/
 input[type="radio"] {
   display: none;
 }
 
-label.filterbutton {
+label {
   padding: 8px 12px;
   background: #eee;
   cursor: pointer;
   margin-right: 5px;
 }
 
-input:checked + label.filterbutton {
+input:checked + label {
   background: #333;
   color: white;
 }
 
 .product {
-  display: inline-table;
+  display: table-row;
 }
 
-/*css filtering system(ANG KAI YUAN)*/
-input:checked ~ .table1 .Product-table {
+/*css filtering system*/
+ input:checked ~ .Product-table {
   display: none;
 }
 
-#all:checked ~ .table1 .Product-table {
-  display: inline-table;
+#all:checked ~ .Product-table {
+  display: table-row;
 }
 
-#AnC:checked ~ .table1 .AC {
-  display: inline-table;
+#AnC:checked ~ .AC {
+  display: table-row;
 }
 
-#Calc:checked ~ .table1 .Cal {
-  display: inline-table;
+#Calc:checked ~ .Cal {
+  display: table-row;
 }
 
-#WI:checked ~ .table1 .Write{
-  display: inline-table;
+#WI:checked ~ .Write{
+  display: table-row;
 }
 
-#TA:checked ~ .table1 .Tech{
-  display: inline-table;
+#TA:checked ~ .Tech{
+  display: table-row;
 }
 
-/*Top Picks Table styling(GOH YEE MINH) */
+/*Top Picks Table styling */
 .TPtitle{
     font-size: 225%;
     font-family: 'Courier New', Courier, monospace;
@@ -191,68 +190,12 @@ div.TP1:hover{
     color: black;
 }
 
-/*Home page pages style(GOH YEE MINH)*/
-.HPpages{
-    display: inline-flex;
-    justify-content: center;
+.HParrow{
+    display: flex;
+    justify-content: space-between;
     width: auto;
     align-items: center;
-
-}
-
-label.HPpages{
-    padding: 8px 12px;
-    background: #eee;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-left: 10px;
-    transition: 0.3s;
-    transform: translateY(500px);
-}
-
-label.HPpages:hover{
-    background: #8f8f8f;
-    transition: 0.3s;
-}
-
-.HomeViewT{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1100px;
-    overflow: hidden;
-}
-
-input:checked + label.HPpages {
-    background: #333;
-    color: #eee;
-    transition: 0.2s;
-}
-/*HomePage tabs logic(GOH YEE MINH)*/
-#Reviews:checked ~ .HomeViewT h3.TPtitle{
-    transform: translateX(-1100px);
-    transition: 0.3s;
-}
-
-#BestSellers:checked ~.HomeViewT h3.TPtitle{
-    transform: translateX(515px);
-    transition: 0.3s;
-}
-
-#BestSellers:checked ~ .HomeViewT h3.Reviews{
-    transition: 0.3s;
-}
-
-#Reviews:checked ~.HomeViewT h3.Reviews{
-    transform: translateX(-750px);
-    transition: 0.3s;
-}
-
-#Reviews:checked ~.TPtable{
-    transform: translateX(-1100px);
-    transition: 0.3s;
-}
-
-#BestSellers:checked ~ .TPtable{
-    transform: translateX(-0px);
-    transition: 0.3s;
+    transform: translateY(-200px);
+    margin: 0 10px;
+    
 }
