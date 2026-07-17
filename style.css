@@ -81,7 +81,7 @@ table.Product-table{
     text-align: left;
 }
 .Product-table tr:nth-child(even) {
-    background-color: #e6e5e5;
+    background-color: #cacaca;
 }
 
 
