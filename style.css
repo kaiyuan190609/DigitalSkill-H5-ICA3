@@ -168,7 +168,7 @@ div.TP1{
 div.TP1:hover{
     transform: translateY(50px);
     background-color: rgb(255, 224, 123);
-    transform: scale(1);
+    transform: scale(0.95);
     transition: 0.2s;
 }
 
@@ -178,11 +178,11 @@ div.TP1:hover{
     border: 20px;
 }
 
-.TP1 h4{
+.TP1 h3{
     text-align: center;
     font-size: auto;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
     margin-top: 0px;
 }
 
@@ -207,7 +207,7 @@ div.Reviewcard:hover{
     box-shadow: 3px 3px 15px rgb(58, 58, 58);
 }
 
-.Reviewcard h4{
+.Reviewcard h3{
     text-align: left;
     font-size: auto;
     margin-bottom:0;
@@ -268,25 +268,25 @@ input:checked + label.HPpages {
     transition: 0.2s;
 }
 /*HomePage tabs logic(GOH YEE MINH)*/
-#Reviews:checked ~ .HomeViewT h3.TPtitle{
+#Reviews:checked ~ .HomeViewT h2.TPtitle{
     transform: translateX(-1500px);
     transition: 0.3s;
     visibility: hidden;
 }
 
-#BestSellers:checked ~.HomeViewT h3.TPtitle{
+#BestSellers:checked ~.HomeViewT h2.TPtitle{
     transform: translateX(75px);
     transition: 0.3s;
     visibility: visible;
 }
 
-#BestSellers:checked ~ .HomeViewT h3.Reviews{
+#BestSellers:checked ~ .HomeViewT h2.Reviews{
     transition: 0.3s;
     transform: translateX(1500px);
     visibility: hidden;
 }
 
-#Reviews:checked ~.HomeViewT h3.Reviews{
+#Reviews:checked ~.HomeViewT h2.Reviews{
     transform: translateX(-125px);
     transition: 0.3s;
     visibility: visible;
@@ -314,4 +314,49 @@ input:checked + label.HPpages {
     transform: translateX(-390px);
     transition: 0.3s;
     visibility: visible;
+}
+
+.vision{
+background: pink;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.mission{
+ background: pink;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.story{
+background: pink;
+padding: 50px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.answer{
+ background: pink;
+padding: 50px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+font-size: larger;
+}
+
+.question{
+    font-size:larger;
 }
