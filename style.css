@@ -140,6 +140,10 @@ input:checked + label.filterbutton {
     text-decoration: underline;
 }
 
+.Reviews a{
+    color: red;
+}
+
 .TPtable, .reviewtab{
     display: flex;
     justify-content: center;
