@@ -315,27 +315,44 @@ input:checked + label.HPpages {
     visibility: visible;
 }
 
-.vision{
+.our-vision{
+display: block;
 background: pink;
 padding: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
 max-width: 900px;
+margin-top: 0;
+margin-bottom: 0;
 margin: 0 auto;
 }
 
-.mission{
+.our-vision img{
+    scale: 50%;
+    transform: translateX(-650px);
+    margin: -30% auto;
+}
+
+.our-mission{
  background: pink;
 padding: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
 max-width: 900px;
+margin-top: 0;
+margin-bottom: 0;
 margin: 0 auto;
 }
 
-.story{
+.our-mission img{
+    scale: 50%;
+    transform: translateX(-650px);
+    margin: -30% auto;
+}
+
+.our-story{
 background: pink;
 padding: 50px;
 border-radius: 16px;
@@ -344,6 +361,7 @@ box-shadow: 4px 4px
 max-width: 900px;
 margin: 0 auto;
 }
+
 
 .answer{
  background: pink;
@@ -358,4 +376,9 @@ font-size: larger;
 
 .question{
     font-size:larger;
+}
+
+
+.faq{
+    cursor: pointer;
 }
