@@ -280,3 +280,48 @@ input:checked + label.HPpages {
     transition: 0.3s;
     visibility: visible;
 }
+
+.vision{
+background: pink;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.mission{
+ background: pink;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.story{
+background: pink;
+padding: 50px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.answer{
+ background: pink;
+padding: 50px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 900px;
+margin: 0 auto;
+font-size: larger;
+}
+
+.question{
+    font-size:larger;
+}
