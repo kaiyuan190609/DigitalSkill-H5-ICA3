@@ -6,6 +6,7 @@ h1 {
     text-align: center;
 }
 
+
 /* Nav bar styling */
 .navbar table{
     background-color: pink;
@@ -132,7 +133,7 @@ input:checked ~ .table1 .Product-table {
 }
 
 /*Top Picks Table styling(GOH YEE MINH) */
-.TPtitle{
+.TPtitle, .Reviews{
     font-size: 225%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -166,7 +167,7 @@ div.TP1{
 
 
 div.TP1:hover{
-    transform: translateY(--50px);
+    transform: translateY(-50px);
     background-color: rgb(255, 224, 123);
     transform: scale(1.1);
     transition: 0.2s;
@@ -198,6 +199,7 @@ div.TP1:hover{
     width: auto;
     align-items: center;
 
+
 }
 
 label.HPpages{
@@ -216,9 +218,8 @@ label.HPpages:hover{
 }
 
 .HomeViewT{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1100px;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -229,35 +230,40 @@ input:checked + label.HPpages {
 }
 /*HomePage tabs logic(GOH YEE MINH)*/
 #Reviews:checked ~ .HomeViewT h3.TPtitle{
-    transform: translateX(-1100px);
+    transform: translateX(-1500px);
     transition: 0.3s;
+    visibility: hidden;
 }
 
 #BestSellers:checked ~.HomeViewT h3.TPtitle{
-    transform: translateX(515px);
+    transform: translateX(75px);
     transition: 0.3s;
+    visibility: visible;
 }
 
 #BestSellers:checked ~ .HomeViewT h3.Reviews{
     transition: 0.3s;
+    transform: translateX(1500px);
+    visibility: hidden;
 }
 
 #Reviews:checked ~.HomeViewT h3.Reviews{
-    transform: translateX(-750px);
+    transform: translateX(-125px);
     transition: 0.3s;
+    visibility: visible;
 }
 
 #Reviews:checked ~.TPtable{
-    transform: translateX(-1100px);
+    transform: translateX(-1500px);
     transition: 0.3s;
+    visibility: hidden;
 }
 
 #BestSellers:checked ~ .TPtable{
     transform: translateX(-0px);
-    transition: 0.3s;
-}
+    transition: 0.3s;}
 
-/*About us page styling*/
+/* About us styling*/
 .card {
 padding: 16px; /* breathing room */
 margin: 12px; /* gap to others */
