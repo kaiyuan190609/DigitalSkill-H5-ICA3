@@ -264,6 +264,7 @@ input:checked + label.HPpages {
     visibility: hidden;
 }
 
+<<<<<<< HEAD
  
 #BestSellers:checked ~ .TPtable{
     transform: translateX(-0px);
@@ -276,6 +277,8 @@ padding: 16px; /* breathing room */
 margin: 12px; /* gap to others */
 border: 1px solid #DDD;}
 
+=======
+>>>>>>> 9fc0dd769a3881a96b863968e288d4b4b2340b26
 #BestSellers:checked ~.tabs .TPtable{
     transform: translateX(390px);
     transition: 0.3s;
@@ -293,3 +296,12 @@ border: 1px solid #DDD;}
     transition: 0.3s;
     visibility: visible;
 }
+<<<<<<< HEAD
+=======
+
+/* About us styling*/
+.card {
+padding: 16px; /* breathing room */
+margin: 12px; /* gap to others */
+border: 1px solid #DDD;}
+>>>>>>> 9fc0dd769a3881a96b863968e288d4b4b2340b26
