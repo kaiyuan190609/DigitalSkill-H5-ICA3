@@ -141,7 +141,7 @@ input:checked ~ .table1 .Product-table {
     text-decoration: underline;
 }
 
-.TPtable{
+.TPtable, .reviewtab{
     display: flex;
     justify-content: center;
     width: auto;
@@ -161,15 +161,15 @@ div.TP1{
     border-radius: 12px;
     box-shadow: 3px 3px 5px lightpink;
     transition: 0.2s;
-    transform:scale(auto);
-        overflow: hidden;
+    transform:scale(0.9);
+    overflow: hidden;
 }
 
 
 div.TP1:hover{
-    transform: translateY(-50px);
+    transform: translateY(50px);
     background-color: rgb(255, 224, 123);
-    transform: scale(1.1);
+    transform: scale(1);
     transition: 0.2s;
 }
 
@@ -194,10 +194,12 @@ div.TP1:hover{
 
 /*Home page pages style(GOH YEE MINH)*/
 .HPpages{
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
     width: auto;
-    align-items: center;
+    align-self: center;
+    margin: 5px auto;
+
 
 
 }
@@ -209,7 +211,7 @@ label.HPpages{
     margin-right: 10px;
     margin-left: 10px;
     transition: 0.3s;
-    transform: translateY(500px);
+
 }
 
 label.HPpages:hover{
@@ -217,11 +219,14 @@ label.HPpages:hover{
     transition: 0.3s;
 }
 
-.HomeViewT{
+
+
+.HomeViewT, .tabs{
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
+
 
 input:checked + label.HPpages {
     background: #333;
@@ -253,12 +258,13 @@ input:checked + label.HPpages {
     visibility: visible;
 }
 
-#Reviews:checked ~.TPtable{
+#Reviews:checked ~.tabs .TPtable{
     transform: translateX(-1500px);
     transition: 0.3s;
     visibility: hidden;
 }
 
+<<<<<<< HEAD
 #BestSellers:checked ~ .TPtable{
     transform: translateX(-0px);
     transition: 0.3s;}
@@ -268,3 +274,22 @@ input:checked + label.HPpages {
 padding: 16px; /* breathing room */
 margin: 12px; /* gap to others */
 border: 1px solid #DDD;}
+=======
+#BestSellers:checked ~.tabs .TPtable{
+    transform: translateX(390px);
+    transition: 0.3s;
+    visibility: visible;
+}
+
+#BestSellers:checked ~.tabs .reviewtab{
+    transform: translateX(1500px);
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+#Reviews:checked ~.tabs .reviewtab{
+    transform: translateX(-390px);
+    transition: 0.3s;
+    visibility: visible;
+}
+>>>>>>> dd7ed7d3bbc2b069eb2ba3010082849e68a188bd
