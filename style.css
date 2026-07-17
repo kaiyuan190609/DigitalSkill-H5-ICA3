@@ -256,3 +256,9 @@ input:checked + label.HPpages {
     transform: translateX(-0px);
     transition: 0.3s;
 }
+
+/*About us page styling*/
+.card {
+padding: 16px; /* breathing room */
+margin: 12px; /* gap to others */
+border: 1px solid #DDD;}
