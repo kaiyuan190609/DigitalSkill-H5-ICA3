@@ -47,7 +47,7 @@ h1 {
     vertical-align: middle;
 }
 
-/* Product Table styling */
+/* Product Table styling(ANG KAI YUAN) */
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
 }
@@ -85,19 +85,19 @@ table.Product-table{
 }
 
 
-/*Filter Button styling*/
+/*Filter Button styling(ANG KAI YUAN)*/
 input[type="radio"] {
   display: none;
 }
 
-label {
+label.filterbutton {
   padding: 8px 12px;
   background: #eee;
   cursor: pointer;
   margin-right: 5px;
 }
 
-input:checked + label {
+input:checked + label.filterbutton {
   background: #333;
   color: white;
 }
@@ -106,7 +106,7 @@ input:checked + label {
   display: inline-table;
 }
 
-/*css filtering system*/
+/*css filtering system(ANG KAI YUAN)*/
 input:checked ~ .table1 .Product-table {
   display: none;
 }
@@ -131,7 +131,7 @@ input:checked ~ .table1 .Product-table {
   display: inline-table;
 }
 
-/*Top Picks Table styling */
+/*Top Picks Table styling(GOH YEE MINH) */
 .TPtitle{
     font-size: 225%;
     font-family: 'Courier New', Courier, monospace;
@@ -191,12 +191,68 @@ div.TP1:hover{
     color: black;
 }
 
-.HParrow{
-    display: flex;
-    justify-content: space-between;
+/*Home page pages style(GOH YEE MINH)*/
+.HPpages{
+    display: inline-flex;
+    justify-content: center;
     width: auto;
     align-items: center;
-    transform: translateY(-200px);
-    margin: 0 10px;
-    
+
+}
+
+label.HPpages{
+    padding: 8px 12px;
+    background: #eee;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 0.3s;
+    transform: translateY(500px);
+}
+
+label.HPpages:hover{
+    background: #8f8f8f;
+    transition: 0.3s;
+}
+
+.HomeViewT{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1100px;
+    overflow: hidden;
+}
+
+input:checked + label.HPpages {
+    background: #333;
+    color: #eee;
+    transition: 0.2s;
+}
+/*HomePage tabs logic(GOH YEE MINH)*/
+#Reviews:checked ~ .HomeViewT h3.TPtitle{
+    transform: translateX(-1100px);
+    transition: 0.3s;
+}
+
+#BestSellers:checked ~.HomeViewT h3.TPtitle{
+    transform: translateX(515px);
+    transition: 0.3s;
+}
+
+#BestSellers:checked ~ .HomeViewT h3.Reviews{
+    transition: 0.3s;
+}
+
+#Reviews:checked ~.HomeViewT h3.Reviews{
+    transform: translateX(-750px);
+    transition: 0.3s;
+}
+
+#Reviews:checked ~.TPtable{
+    transform: translateX(-1100px);
+    transition: 0.3s;
+}
+
+#BestSellers:checked ~ .TPtable{
+    transform: translateX(-0px);
+    transition: 0.3s;
 }
