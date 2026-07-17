@@ -130,13 +130,8 @@ input:checked + label {
   display: table-row;
 }
 
-<<<<<<< HEAD
-/*Top Picks Table styling */
-.TPtitle{
-=======
 /*Top Picks and reviews Table styling(GOH YEE MINH) */
 .TPtitle, .Reviews{
->>>>>>> 89a148448a0455d771c9641d6592015ab0891461
     font-size: 225%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -230,17 +225,6 @@ p.reviewtext{
     color: black;
 }
 
-<<<<<<< HEAD
-.HParrow{
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    align-items: center;
-    transform: translateY(-200px);
-    margin: 0 10px;
-    
-}
-=======
 /*Home page pages style(GOH YEE MINH)*/
 .HPpages{
     display: flex;
@@ -375,4 +359,3 @@ font-size: larger;
 .question{
     font-size:larger;
 }
->>>>>>> 89a148448a0455d771c9641d6592015ab0891461
