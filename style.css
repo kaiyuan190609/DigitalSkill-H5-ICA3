@@ -5,7 +5,7 @@ body{
 h1 {
     text-align: center;
 }
-
+/*/*Goh Yee Minh's Styling /**/
 /* Nav bar styling */
 .navbar table{
     background-color: pink;
@@ -47,99 +47,7 @@ h1 {
     vertical-align: middle;
 }
 
-/* Product Table styling */
-.B1{
-    width: 100%;
-    height: auto;
-}
-.I1{
-    width: 120px;
-    height: auto;
-}
-.Product-table,.Product-table th,.Product-table td{
-    border: 1.3px solid black;
-}
-
-table.Product-table{
-     border-collapse: collapse; 
-}
-
-.Product-table{
-    width: 97%;
-    display: inline-table;
-    vertical-align: center;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Product-table caption{
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-}
-.Product-table th{
-    background-color: rgb(217, 189, 98);
-    font-weight: bold;
-    height: 50px;
-}
-.Product-table th, .Product-table td {
-    padding: 10px;
-    text-align: left;
-}
-.Product-table tr:nth-child(even) {
-    background-color: #cacaca;
-}
-
-
-/*Filter Button styling*/
-input[type="radio"] {
-  display: none;
-}
-
-label.filterbutton {
-  padding: 8px 12px;
-  background: #eee;
-  cursor: pointer;
-  margin-right: 5px;
-}
-
-input:checked + label.filterbutton {
-  background: #333;
-  color: white;
-}
-
-.product {
-  display: inline-table;
-}
-
-/*css filtering system*/
- input:checked ~ .table1 .Product-table {
-  display: none;
-}
-
-#all:checked ~ .table1 .Product-table {
-  display: inline-table;
-}
-
-#AnC:checked ~ .table1 .AC {
-  display: inline-table;
-}
-
-#Calc:checked ~ .table1 .Cal {
-  display: inline-table;
-}
-
-#WI:checked ~ .table1 .Write{
-  display: inline-table;
-}
-
-#TA:checked ~ .table1 .Tech{
-  display: inline-table;
-}
-
-/*Top Picks and reviews Table styling(GOH YEE MINH) */
+/*Top Picks and reviews Table styling */
 .TPtitle, .Reviews{
     font-size: 225%;
     font-family: 'Courier New', Courier, monospace;
@@ -279,7 +187,7 @@ input:checked + label.HPpages {
     color: #eee;
     transition: 0.2s;
 }
-/*HomePage tabs logic(GOH YEE MINH)*/
+/*HomePage tabs logic*/
 #Reviews:checked ~ .HomeViewT h2.TPtitle{
     transform: translateX(-1500px);
     transition: 0.3s;
@@ -328,6 +236,105 @@ input:checked + label.HPpages {
     visibility: visible;
 }
 
+
+
+
+/*/* Ang Kai Yuan's Styling*//*
+/* Product Table styling */
+.B1{
+    width: 100%;
+    height: auto;
+}
+.I1{
+    width: 120px;
+    height: auto;
+}
+.Product-table,.Product-table th,.Product-table td{
+    border: 1.3px solid black;
+}
+
+table.Product-table{
+     border-collapse: collapse; 
+}
+
+.Product-table{
+    width: 97%;
+    display: inline-table;
+    vertical-align: center;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Product-table caption{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.Product-table th{
+    background-color: rgb(217, 189, 98);
+    font-weight: bold;
+    height: 50px;
+}
+.Product-table th, .Product-table td {
+    padding: 10px;
+    text-align: left;
+}
+.Product-table tr:nth-child(even) {
+    background-color: #cacaca;
+}
+
+
+/*Filter Button styling*/
+input[type="radio"] {
+  display: none;
+}
+
+label.filterbutton {
+  padding: 8px 12px;
+  background: #eee;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+input:checked + label.filterbutton {
+  background: #333;
+  color: white;
+}
+
+.product {
+  display: inline-table;
+}
+
+/*css filtering system*/
+ input:checked ~ .table1 .Product-table {
+  display: none;
+}
+
+#all:checked ~ .table1 .Product-table {
+  display: inline-table;
+}
+
+#AnC:checked ~ .table1 .AC {
+  display: inline-table;
+}
+
+#Calc:checked ~ .table1 .Cal {
+  display: inline-table;
+}
+
+#WI:checked ~ .table1 .Write{
+  display: inline-table;
+}
+
+#TA:checked ~ .table1 .Tech{
+  display: inline-table;
+}
+
+
+
+
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
@@ -370,6 +377,7 @@ input:checked + label.HPpages {
 
 
 
+/*/*Abel's Styling*/
 
 .our-vision{
 display: block;
