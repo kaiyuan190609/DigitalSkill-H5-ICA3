@@ -446,3 +446,33 @@ font-size: larger;
 .faq{
     cursor: pointer;
 }
+/*Contact page style(Richard lol)*/
+.secretintern{
+    text-align: center;
+    font-family:trebuchet ms, sans-serif;
+    color: black;
+    height: 15px;
+    width: auto;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.ContactSubmit{
+ position: relative;
+ font-size: 16px;
+ margin: 0 50px;
+ padding: 16px 50px;
+ color: black;
+ background: rgb(206, 148, 195);
+ border: none;
+ cursor: pointer;
+ border-radius: 20px;
+}
+.ContactHeader {
+   color: white;
+padding: 40px;
+border: none;
+border-radius: 20px;
+background:
+linear-gradient(
+#eceb9d, #e7b5e1);
+}
