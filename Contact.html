@@ -30,7 +30,9 @@
         </nav><!--adjusted nav bar design from Bro Code https://www.youtube.com/watch?v=f3uCSh6LIY0-->
     <main>
      <div class="secretintern">
-     <center><h1><span style="color: pink;">Contact Us and Feedback form</span></h1>
+     <header class="ContactHeader">
+     <h1>Contact us and feedback</h1>
+    </header>
       <p>Our contact number:82922506</p>
       <p>Email:PencilBox@gmail.com</p>
       <p>Office Address: 123 Nanyang Street,Tekong</p>
@@ -47,17 +49,19 @@
      <br>   
             <labelfor="feedback">Your feedback:</label>
             <textarea name="feedback" id="feedback" rows="5" cols="30" placeholder="E.g I like your website!" required></textarea>
-            <br><input type="submit" value="Submit"></br>
-             <label for="rating">Rate our services!(from 0 to 10)</label>
+             <br>
+            <label for="rating">Rate our services!(10 being the best)</label>
             <input type="range" 
             id="rating"  
             min="0" max="10" 
             step="1" value="5"
             oninput="this.nextElementSibling.value = this.value">
-     <output for="rating">5</output>
+             <output for="rating">5</output>
+            </br>
+            <br><input type="submit" value="Submit" class="ContactSubmit"></br>
+            <br><input type="reset" value="Reset" class="ContactSubmit"></br>
             </form>
      </br>
-     </center>
   </div>
   </main>
   </body>
