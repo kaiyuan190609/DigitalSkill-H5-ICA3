@@ -242,12 +242,16 @@ input:checked + label.HPpages {
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
 .B1{
-    width: 100%;
+    width: 97%;
+    margin-left: 10px;
     height: auto;
 }
 .I1{
     width: 120px;
     height: auto;
+}
+.table1{
+    margin-left: 10px;
 }
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
