@@ -335,10 +335,10 @@ input:checked + label.filterbutton {
 #TA:checked ~ .table1 .Tech{
   display: inline-table;
 }
+/*Filter Button Code modified from AI/ 
 
 
-
-/*/* Shyeen Ong's Styling*//*
+/*/ Shyeen Ong Styling//*
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
