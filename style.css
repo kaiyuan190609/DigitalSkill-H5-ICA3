@@ -356,9 +356,14 @@ input:checked + label.filterbutton {
     padding: 12px 16px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-image: url("Math background.png"); /*This image is AI generated*/
+    background-image: url("MathBackground.png"); /*This image is AI generated*/
     background-repeat: repeat;
     background-size: cover;
+}
+
+.GeneralStudyGuide h1 {
+    text-align: center;
+    color: pink;
 }
 
 .Study-tips-main summary {
@@ -377,6 +382,26 @@ input:checked + label.filterbutton {
     text-align: center;
     color: pink;
 }
+
+.Study-tips-main table img {
+    width: 180px;
+    height: auto;
+    margin: 20px;
+    display: block;
+    background-color: rgb(217, 189, 98);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    transform: translateY(-10px);
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px lightpink;
+    transition: 0.2s;
+    transform:scale(0.9);
+    overflow: hidden;
+}
+
 
 
 
@@ -449,4 +474,34 @@ font-size: larger;
 
 .faq{
     cursor: pointer;
+}
+/*Contact page style(Richard lol)*/
+.secretintern{
+    text-align: center;
+    font-family:trebuchet ms, sans-serif;
+    color: black;
+    height: 15px;
+    width: auto;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.ContactSubmit{
+ position: relative;
+ font-size: 16px;
+ margin: 0 50px;
+ padding: 16px 50px;
+ color: black;
+ background: rgb(206, 148, 195);
+ border: none;
+ cursor: pointer;
+ border-radius: 20px;
+}
+.ContactHeader {
+   color: white;
+padding: 40px;
+border: none;
+border-radius: 20px;
+background:
+linear-gradient(
+#eceb9d, #e7b5e1);
 }
