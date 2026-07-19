@@ -242,12 +242,16 @@ input:checked + label.HPpages {
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
 .B1{
-    width: 100%;
+    width: 97%;
+    margin-left: 10px;
     height: auto;
 }
 .I1{
     width: 120px;
     height: auto;
+}
+.table1{
+    margin-left: 10px;
 }
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
@@ -284,7 +288,7 @@ table.Product-table{
 .Product-table tr:nth-child(even) {
     background-color: #cacaca;
 }
-
+/*Product-tabe tr:nth-child(even) code modified from W3 Schools: https://www.w3schools.com/howto/howto_css_table_zebra.asp / 
 
 /*Filter Button styling*/
 input[type="radio"] {
@@ -331,10 +335,10 @@ input:checked + label.filterbutton {
 #TA:checked ~ .table1 .Tech{
   display: inline-table;
 }
+/*Filter Button Code modified from AI/ 
 
 
-
-
+/*/ Shyeen Ong Styling//*
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
@@ -631,6 +635,11 @@ font-size: larger;
 .faq{
     cursor: pointer;
 }
+
+
+
+
+/*/* Richard's Styling*//*
 /*Contact page style(Richard lol)*/
 .secretintern{
     text-align: center;
