@@ -351,7 +351,7 @@ input:checked + label.filterbutton {
 }
 
 .Study-tips-main details {
-    width: min(90%, 1000px);
+    width: min(90%, 1200px);
     margin: 2.5px 0;
     padding: 12px 16px;
     border: 1px solid #ddd;
@@ -381,6 +381,16 @@ input:checked + label.filterbutton {
 .Study-tips-main h1 {
     text-align: center;
     color: pink;
+    text-decoration: underline;
+}
+
+.Study-tips-main h2 {
+    text-align:center;
+    color: rgb(217, 189, 98);
+}
+
+.Study-tips-main h3 {
+    text-align: center;
 }
 
 .Study-tips-main table img {
@@ -402,7 +412,157 @@ input:checked + label.filterbutton {
     overflow: hidden;
 }
 
+.GeneralStudyGuide table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    td, th {
+        border: 2px solid black;
+        padding: 15px;
+    }
+    th {
+        background-color: gray;
+        color: white;
+    }
+}
 
+.GeneralStudyMethods h2 li {
+    text-align:justify;
+    color: white;
+}
+
+.GeneralStudyMethods h3 ul li {
+    backdrop-filter: blur(10px);
+}
+
+.GeneralStudyMethods ol {
+    display: block;
+    background-image: url("PinkStudiesBackground.png"); /*This image is AI generated*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px
+    10px #B9B9B9;
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.MathTable {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px white solid;
+    tr, th, td {
+        padding: 10px;
+        margin: auto;
+        border: 2px white solid;
+        color: white;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.ArtTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px black solid;
+    tr, th, td {
+        padding: 10px;
+        margin: auto;
+        border: 2px black solid;
+        color: black;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.LingTable {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px white solid;
+    tr, th, td {
+        padding: 10px;
+        margin: auto;
+        border: 2px white solid;
+        color: white;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.SciTable {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px white solid;
+    tr, th, td {
+        padding: 10px;
+        margin: auto;
+        border: 2px white solid;
+        color: white;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.MLSTips {
+    display: block;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px
+    10px #B9B9B9;
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0 auto;
+    h2, h3 {
+        color: white;
+    }
+}
+
+.ArtTips {
+    display: block;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px
+    10px #B9B9B9;
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0 auto;
+    h2, h3 {
+        color: black;
+    }
+}
 
 
 
