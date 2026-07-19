@@ -288,7 +288,7 @@ table.Product-table{
 .Product-table tr:nth-child(even) {
     background-color: #cacaca;
 }
-
+/*Product-tabe tr:nth-child(even) code modified from W3 Schools: https://www.w3schools.com/howto/howto_css_table_zebra.asp / 
 
 /*Filter Button styling*/
 input[type="radio"] {
