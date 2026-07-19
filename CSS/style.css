@@ -338,7 +338,7 @@ input:checked + label.filterbutton {
 
 
 
-
+/*/* Shyeen Ong's Styling*//*
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
@@ -475,6 +475,11 @@ font-size: larger;
 .faq{
     cursor: pointer;
 }
+
+
+
+
+/*/* Richard's Styling*//*
 /*Contact page style(Richard lol)*/
 .secretintern{
     text-align: center;
