@@ -257,9 +257,6 @@ input:checked + label.HPpages {
     border: 1.3px solid black;
 }
 
-table.Product-table{
-     border-collapse: collapse; 
-}
 
 .Product-table{
     width: 97%;
@@ -267,7 +264,8 @@ table.Product-table{
     vertical-align: center;
     margin-bottom: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    border-collapse: collapse;
 }
 .Product-table caption{
     font-size: 28px;
@@ -300,6 +298,7 @@ label.filterbutton {
   background: #eee;
   cursor: pointer;
   margin-right: 5px;
+  margin-inline-start: 5px;
 }
 
 input:checked + label.filterbutton {
@@ -307,12 +306,8 @@ input:checked + label.filterbutton {
   color: white;
 }
 
-.product {
-  display: inline-table;
-}
-
 /*css filtering system*/
- input:checked ~ .table1 .Product-table {
+input:checked ~ .table1 .Product-table {
   display: none;
 }
 
