@@ -326,14 +326,17 @@ input:checked + label.filterbutton {
 
 #Calc:checked ~ .table1 .Cal {
   display: inline-table;
+  margin-top: -2%;
 }
 
 #WI:checked ~ .table1 .Write{
   display: inline-table;
+  margin-top: -2%;
 }
 
 #TA:checked ~ .table1 .Tech{
   display: inline-table;
+  margin-top: -5%;
 }
 /*Filter Button Code modified from AI/ 
 
