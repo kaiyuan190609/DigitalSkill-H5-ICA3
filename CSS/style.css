@@ -56,6 +56,21 @@ h1 {
     text-decoration: underline;
 }
 
+.bestinfo a, .revinfo a{
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.364);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.bestinfo a:hover, .revinfo a:hover{
+    color: #ddd;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
 .Reviews a{
     color: red;
 }
@@ -125,6 +140,7 @@ div.Reviewcard:hover{
     transform: translateY(-25px);
     transition: 0.2s;
     box-shadow: 3px 3px 15px rgb(58, 58, 58);
+    scale: 1.1;
 }
 
 .Reviewcard h3{
@@ -146,7 +162,7 @@ p.reviewtext{
     color: black;
 }
 
-/*Home page pages style(GOH YEE MINH)*/
+/*Home page tabs style(GOH YEE MINH)*/
 .HPpages{
     display: flex;
     justify-content: space-evenly;
@@ -175,10 +191,11 @@ label.HPpages:hover{
 
 
 
-.HomeViewT, .tabs{
+.HomeViewT, .tabs, .extInfo{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -236,8 +253,99 @@ input:checked + label.HPpages {
     visibility: visible;
 }
 
+#Reviews:checked ~.extInfo .bestinfo{
+    transform: translateX(-1500px);
+    transition: 0.3s;
+    visibility: hidden;
+}
 
+#BestSellers:checked ~.extInfo .bestinfo{
+    transform: translateX(150px);
+    transition: 0.3s;
+    visibility: visible;
+}
 
+#BestSellers:checked ~.extInfo .revinfo{
+    transform: translateX(1500px);
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+#Reviews:checked ~.extInfo .revinfo{
+    transform: translateX(-205px);
+    transition: 0.3s;
+    visibility: visible;
+}
+
+/*orderpage styling*/
+.OrderForm{
+   display: block;
+   border: 2px solid rgba(0, 0, 0, 0.288);
+   padding: 10px;
+   padding-bottom: 100px;
+   margin: 20px 200px;
+   border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.required{
+    color: red;
+}
+
+.input{
+    margin-bottom: 5px;
+}
+
+.Ordconfirm{
+    color: #333333b8;
+}
+
+/*order thank you styling*/
+.orderTY{
+   display: block;
+   border: 2px solid rgba(0, 0, 0, 0.288);
+   padding: 10px;
+   padding-bottom: 50px;
+   margin: 20px 200px;
+   border-radius: 5px;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.orderTY h1{
+    color: pink;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.orderTY p{
+    color: rgba(0, 0, 0, 0.49);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.TYbutton{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.redirectbutton{
+    display: block;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.redirectbutton:hover{
+    background-color: rgb(255, 223, 228);
+    color: rgb(255, 0, 43);
+    transition: 0.2s;
+}
 
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
