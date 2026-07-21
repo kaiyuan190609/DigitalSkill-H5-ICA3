@@ -686,8 +686,6 @@ border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
 max-width: 900px;
-margin-top: 0;
-margin-bottom: 0;
 margin: 0 auto;
 }
 
@@ -698,14 +696,12 @@ margin: 0 auto;
 }
 
 .our-mission{
- background: pink;
+ background: rgb(217, 189, 98);
 padding: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
 max-width: 900px;
-margin-top: 0;
-margin-bottom: 0;
 margin: 0 auto;
 }
 
