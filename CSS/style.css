@@ -179,6 +179,7 @@ label.HPpages:hover{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -234,6 +235,26 @@ input:checked + label.HPpages {
     transform: translateX(-390px);
     transition: 0.3s;
     visibility: visible;
+}
+
+/*orderpage styling*/
+.OrderForm{
+   display: block;
+   border: 2px solid rgba(0, 0, 0, 0.288);
+   padding: 10px;
+   padding-bottom: 100px;
+   margin: 20px 200px;
+   border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.required{
+    color: red;
+}
+
+.input{
+    margin-bottom: 5px;
 }
 
 
