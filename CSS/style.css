@@ -56,11 +56,19 @@ h1 {
     text-decoration: underline;
 }
 
-.bestinfo, .revinfo{
+.bestinfo a, .revinfo a{
     font-size: 100%;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: rgba(0, 0, 0, 0.364);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.bestinfo a:hover, .revinfo a:hover{
+    color: #ddd;
+    text-decoration: underline;
+    transition: 0.1s;
 }
 
 .Reviews a{
@@ -153,7 +161,7 @@ p.reviewtext{
     color: black;
 }
 
-/*Home page pages style(GOH YEE MINH)*/
+/*Home page tabs style(GOH YEE MINH)*/
 .HPpages{
     display: flex;
     justify-content: space-evenly;
