@@ -140,6 +140,7 @@ div.Reviewcard:hover{
     transform: translateY(-25px);
     transition: 0.2s;
     box-shadow: 3px 3px 15px rgb(58, 58, 58);
+    scale: 1.1;
 }
 
 .Reviewcard h3{
@@ -296,8 +297,55 @@ input:checked + label.HPpages {
     margin-bottom: 5px;
 }
 
+.Ordconfirm{
+    color: #333333b8;
+}
 
+/*order thank you styling*/
+.orderTY{
+   display: block;
+   border: 2px solid rgba(0, 0, 0, 0.288);
+   padding: 10px;
+   padding-bottom: 50px;
+   margin: 20px 200px;
+   border-radius: 5px;
+    overflow: hidden;
+    text-align: center; 
+}
 
+.orderTY h1{
+    color: pink;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.orderTY p{
+    color: rgba(0, 0, 0, 0.49);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.TYbutton{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.redirectbutton{
+    display: block;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.redirectbutton:hover{
+    background-color: rgb(255, 223, 228);
+    color: rgb(255, 0, 43);
+    transition: 0.2s;
+}
 
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
