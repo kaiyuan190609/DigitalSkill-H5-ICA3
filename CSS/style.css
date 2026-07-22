@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-image:  url(Imgs/whiteStationaryBG.png);
+    background-attachment: fixed;
 }
 
 h1 {
@@ -89,8 +91,8 @@ div.TP1{
     background-color: rgb(217, 189, 98);
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding-top: 20px;
     transform: translateY(-10px);
     border-radius: 12px;
@@ -126,8 +128,8 @@ div.Reviewcard{
     display: block;
     background-color: white;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     border-radius: 12px;
     box-shadow: 3px 3px 10px rgb(58, 58, 58);
     transition: 0.2s;
@@ -452,20 +454,39 @@ input:checked ~ .table1 .Product-table {
     min-height: 20vh;
     padding: 20px;
     box-sizing: border-box;
+    overflow: hidden;
 }
+
 
 .Study-tips-main details {
     width: min(90%, 1200px);
-    margin: 2.5px 0;
+    margin: 2.5px auto;
     padding: 12px 16px;
     border: 1px solid #ddd;
-    border-radius: 8px;/*This image is AI generated*/
+    border-radius: 8px;
     background-repeat: repeat;
     background-size: cover;
+    overflow: auto;
 }
 
 details.mathbg{
-        background-image: url("MathBackground.png"); 
+        background-image: url("Imgs/MathBackground.png"); /*This image is AI generated*/
+        background-color: black;
+}
+
+details.artbg{
+        background-image: url("Imgs/ArtsAndDesignBackground.png"); /*This image is AI generated*/
+        background-color: beige;
+}
+
+details.lingbg{
+        background-image: url("Imgs/LinguisticsAndWritingBackground.png"); /*This image is AI generated*/
+        background-color: dark green;
+}
+
+details.scibg{
+        background-image: url("Imgs/SciencesBackground.png"); /*This image is AI generated*/
+        background-color: dark blue;
 }
 
 .GeneralStudyGuide h1 {
@@ -543,7 +564,7 @@ details.mathbg{
 
 div.GeneralStudyMethods {
     display: block;
-    background-image: url ('Pink-Studies-Background.png'); /*This image is AI generated*/
+    background-image: url("Imgs/Pink-Studies-Background.png"); /*This image is AI generated*/
     background-color: pink;
     background-position: center;
     background-repeat: no-repeat;
