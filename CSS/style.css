@@ -454,20 +454,39 @@ input:checked ~ .table1 .Product-table {
     min-height: 20vh;
     padding: 20px;
     box-sizing: border-box;
+    overflow: hidden;
 }
+
 
 .Study-tips-main details {
     width: min(90%, 1200px);
-    margin: 2.5px 0;
+    margin: 2.5px auto;
     padding: 12px 16px;
     border: 1px solid #ddd;
-    border-radius: 8px;/*This image is AI generated*/
+    border-radius: 8px;
     background-repeat: repeat;
     background-size: cover;
+    overflow: auto;
 }
 
 details.mathbg{
-        background-image: url("MathBackground.png"); 
+        background-image: url("MathBackground.png"); /*This image is AI generated*/
+        background-color: black;
+}
+
+details.artbg{
+        background-image: url("ArtsAndDesignBackground.png"); /*This image is AI generated*/
+        background-color: beige;
+}
+
+details.lingbg{
+        background-image: url("LinguisticsAndWritingBackground.png"); /*This image is AI generated*/
+        background-color: dark green;
+}
+
+details.scibg{
+        background-image: url("SciencesBackground.png"); /*This image is AI generated*/
+        background-color: dark blue;
 }
 
 .GeneralStudyGuide h1 {
@@ -545,7 +564,7 @@ details.mathbg{
 
 div.GeneralStudyMethods {
     display: block;
-    background-image: url ('Pink-Studies-Background.png'); /*This image is AI generated*/
+    background-image: url("Pink-Studies-Background.png"); /*This image is AI generated*/
     background-color: pink;
     background-position: center;
     background-repeat: no-repeat;
