@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-image:  url(Imgs/whiteStationaryBG.png);
+    background-attachment: fixed;
 }
 
 h1 {
@@ -468,22 +470,22 @@ input:checked ~ .table1 .Product-table {
 }
 
 details.mathbg{
-        background-image: url("MathBackground.png"); /*This image is AI generated*/
+        background-image: url("Imgs/MathBackground.png"); /*This image is AI generated*/
         background-color: black;
 }
 
 details.artbg{
-        background-image: url("ArtsAndDesignBackground.png"); /*This image is AI generated*/
+        background-image: url("Imgs/ArtsAndDesignBackground.png"); /*This image is AI generated*/
         background-color: beige;
 }
 
 details.lingbg{
-        background-image: url("LinguisticsAndWritingBackground.png"); /*This image is AI generated*/
+        background-image: url("Imgs/LinguisticsAndWritingBackground.png"); /*This image is AI generated*/
         background-color: dark green;
 }
 
 details.scibg{
-        background-image: url("SciencesBackground.png"); /*This image is AI generated*/
+        background-image: url("Imgs/SciencesBackground.png"); /*This image is AI generated*/
         background-color: dark blue;
 }
 
@@ -562,7 +564,7 @@ details.scibg{
 
 div.GeneralStudyMethods {
     display: block;
-    background-image: url("Pink-Studies-Background.png"); /*This image is AI generated*/
+    background-image: url("Imgs/Pink-Studies-Background.png"); /*This image is AI generated*/
     background-color: pink;
     background-position: center;
     background-repeat: no-repeat;
