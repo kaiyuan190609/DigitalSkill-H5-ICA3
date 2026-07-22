@@ -283,12 +283,13 @@ input:checked + label.HPpages {
 .OrderForm{
    display: block;
    border: 2px solid rgba(0, 0, 0, 0.288);
-   padding: 10px;
+   padding: 25px;
    padding-bottom: 100px;
    margin: 20px 200px;
    border-radius: 5px;
     overflow: hidden;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .required{
