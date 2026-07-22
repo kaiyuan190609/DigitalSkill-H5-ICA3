@@ -89,8 +89,8 @@ div.TP1{
     background-color: rgb(217, 189, 98);
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding-top: 20px;
     transform: translateY(-10px);
     border-radius: 12px;
@@ -126,8 +126,8 @@ div.Reviewcard{
     display: block;
     background-color: white;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     border-radius: 12px;
     box-shadow: 3px 3px 10px rgb(58, 58, 58);
     transition: 0.2s;
@@ -371,8 +371,6 @@ input:checked + label.HPpages {
     display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto; 
     border-collapse: collapse;
 }
 .Product-table caption{
@@ -707,8 +705,6 @@ border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
 max-width: 900px;
-margin-top: 0;
-margin-bottom: 0;
 margin: 0 auto;
 }
 
@@ -719,14 +715,12 @@ margin: 0 auto;
 }
 
 .our-mission{
- background: pink;
+ background: rgb(217, 189, 98);
 padding: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
 max-width: 900px;
-margin-top: 0;
-margin-bottom: 0;
 margin: 0 auto;
 }
 
