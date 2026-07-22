@@ -89,8 +89,8 @@ div.TP1{
     background-color: rgb(217, 189, 98);
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding-top: 20px;
     transform: translateY(-10px);
     border-radius: 12px;
@@ -126,8 +126,8 @@ div.Reviewcard{
     display: block;
     background-color: white;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     border-radius: 12px;
     box-shadow: 3px 3px 10px rgb(58, 58, 58);
     transition: 0.2s;
