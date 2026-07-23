@@ -809,3 +809,19 @@ background:
 linear-gradient(
 #eceb9d, #e7b5e1);
 }
+.ratingstyle {
+    display: flex;
+     flex-direction: left;
+    justify-content: center;
+}
+.ratingstyle input {
+    display: none;
+}
+.ratingstyle label {
+    font-size: 35px;
+    color: gold;
+    cursor: pointer;
+}
+.ratingstyle input:checked + label ~ label{
+color: #838383 ;
+}
