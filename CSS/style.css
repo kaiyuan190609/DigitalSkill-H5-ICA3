@@ -479,8 +479,13 @@ input:checked ~ .table1 .Product-table {
     background-repeat: repeat;
     background-size: cover;
     overflow: auto;
+    animation-name: myAnimation;
+    animation-duration: 1s;
 }
 
+#keyframes myAnimation {
+    
+}
 details.mathbg{
         background-image: url("Imgs/MathBackground.png"); /*This image is AI generated*/
         background-color: black;
@@ -565,7 +570,11 @@ details.scibg{
     }
 }
 
-.GeneralStudyMethods h2 li {
+.GeneralStudyMethods li {
+    text-align:justify;
+    color: white;
+}
+.GeneralStudyMethods h2{
     text-align:justify;
     color: white;
 }
