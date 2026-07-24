@@ -351,6 +351,32 @@ input:checked + label.HPpages {
     transition: 0.2s;
 }
 
+/*ordering logic style*/
+div.orderproduct{
+    margin:5px ;
+}
+
+.orderproduct{
+  display: none;
+}
+
+#ACfilt:checked ~ .artcraft{
+    display: block;
+}
+
+#Calfilt:checked ~ .Calcu{
+    display: block;
+}
+
+#WIfilt:checked ~ .Writeins{
+    display: block;
+}
+
+#TAfilt:checked ~ .Techacc{
+    display: block;
+}
+
+
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
 .B1{
