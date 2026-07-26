@@ -422,6 +422,7 @@ div.orderproduct{
     text-align: left;
     color: black;
 }
+
 .Product-table tr:nth-child(even) {
     background-color: #cacaca;
 }
@@ -434,6 +435,10 @@ div.orderproduct{
 /*Product-tabe tr:nth-child(even) code modified from W3 Schools: https://www.w3schools.com/howto/howto_css_table_zebra.asp / 
 
 /*Filter Button styling*/
+.filterbutton:hover{
+    box-shadow: 6px 6px 14px #999;
+}
+
 input[type="radio"] {
   display: none;
 }
