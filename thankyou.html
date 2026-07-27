@@ -34,6 +34,19 @@
 
         <p>Reading your feedback...</p>
         <p><a href="Contact.html">Provide more feedback</a></p>
+        <script>
+        const data = new URLSearchParams(window.location.search);
+        const name = data.get("custname") || "there";
+        const email = data.get("email") || "your email";
+        const feedback = data.get("feedback") || "your feedback";
+        const box = document.getElementById("summary");
+
+if (data.toString() === "") {
+    box.textContent = "No feedback was submitted.";
+} else {
+    box.textContent = `Thanks ${name}! We have received your feedback: "${feedback}". We will contact you at ${email} if necessary.`;
+}
+</script>
 
         <p>Redirecting to the Home page in 5 seconds...</p>
         <br>
