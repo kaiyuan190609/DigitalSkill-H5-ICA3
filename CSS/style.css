@@ -9,8 +9,8 @@ h1 {
 }
 
 @media (max-width:750px) {
-    .TPtable div{
-        scale: 0.5;
+    body{
+
         
     }
 }
