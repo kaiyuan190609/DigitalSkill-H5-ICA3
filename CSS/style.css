@@ -765,37 +765,45 @@ div.GeneralStudyMethods {
 
 /*/*Abel's Styling*/
 
-.our-vision{
-display: block;
+div.our-vision{
+display: flex;
 background: pink;
 padding: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
-max-width: 900px;
 margin: 0 auto;
+width: 75%;
+
+
 }
 
 .our-vision img{
-    scale: 50%;
-    transform: translateX(-650px);
-    margin: -30% auto;
+    width: min(90%, 1200px);
+    margin: 2.5px auto;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: auto;
 }
 
 .our-mission{
- background: rgb(217, 189, 98);
+display:flex;
+background: rgb(217, 189, 98);
 padding: 50px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
-max-width: 900px;
+width: 75%;
 margin: 0 auto;
+justify-content: center;
 }
 
 .our-mission img{
-    scale: 50%;
-    transform: translateX(-650px);
-    margin: -30% auto;
+   max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    /*code from https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window*/
 }
 
 .our-story{
@@ -829,6 +837,9 @@ font-size: larger;
     cursor: pointer;
 }
 
+.vision-text{
+    margin: auto;
+}
 
 
 
