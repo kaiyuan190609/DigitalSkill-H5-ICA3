@@ -7,6 +7,14 @@ body{
 h1 {
     text-align: center;
 }
+
+@media (max-width:750px) {
+    .TPtable div{
+        scale: 0.5;
+        
+    }
+}
+
 /*/*Goh Yee Minh's Styling /**/
 /* Nav bar styling */
 .navbar table{
@@ -91,8 +99,8 @@ div.TP1{
     background-color: rgb(217, 189, 98);
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 20px;
     transform: translateY(-10px);
     border-radius: 12px;
@@ -128,14 +136,15 @@ div.Reviewcard{
     display: block;
     background-color: white;
     padding: 20px;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 12px;
     box-shadow: 3px 3px 10px rgb(58, 58, 58);
     transition: 0.2s;
     overflow: hidden;
     height: 100px;
     width: 250px;
+    
 }
 
 div.Reviewcard:hover{
@@ -358,6 +367,11 @@ div.orderproduct{
 
 .orderproduct{
   display: none;
+  p{
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+  }
 }
 
 #ACfilt:checked ~ .artcraft{
