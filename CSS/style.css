@@ -12,6 +12,10 @@ h1 {
     .Vhide{
         visibility: hidden;
     }
+
+    .navbar table{
+        overflow-x: scroll;
+    }
 }
 
 /*/*Goh Yee Minh's Styling /**/
@@ -294,7 +298,7 @@ input:checked + label.HPpages {
    border: 2px solid rgba(0, 0, 0, 0.288);
    padding: 25px;
    padding-bottom: 100px;
-   margin: 20px 200px;
+   margin: 5% 15%;
    border-radius: 5px;
     overflow: hidden;
     text-align: center;
