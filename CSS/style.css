@@ -16,9 +16,9 @@ h1 {
     .navbar table{
         overflow-x: scroll;
     }
-    .table1{
-       overflow-x: scroll;
-    }
+   .table1{
+    display: none;
+   }
 }
 
 /*/*Goh Yee Minh's Styling /**/
@@ -416,6 +416,7 @@ div.orderproduct{
     padding-top: 0;
     margin-top: 0;
     margin-left: 10px;
+    display: inline-table;
     color: white
 }
 .Product-table,.Product-table th,.Product-table td{
@@ -423,7 +424,7 @@ div.orderproduct{
 }
 
 .Product-table{
-    width: auto;
+    max-width: 97%;
     display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
