@@ -30,6 +30,20 @@ h1 {
    .table1{
     display: none;
    }
+
+   .table1{
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 0px !important;
+    }
+
+    .serial{
+        display: none;
+    }
+
+    .ratingstyle {
+    scale: 0.8;
+    }
 }
 
 /*/*Goh Yee Minh's Styling /**/
@@ -460,7 +474,7 @@ div.orderproduct{
 .Product-table th{
     background-color: rgb(217, 189, 98);
     font-weight: bold;
-    height: 50px;
+    max-height: 50px;
 }
 .Product-table th, .Product-table td {
     padding: 10px;
