@@ -13,17 +13,28 @@ h1 {
         scale: 0.5;
         
     }
+
+    .navbar table{
+        overflow-x: scroll;
+    }
+   .table1{
+    display: none;
+   }
 }
 
 /*/*Goh Yee Minh's Styling /**/
 /* Nav bar styling */
 .navbar table{
     background-color: pink;
-    overflow: auto;
-     justify-content: space-evenly;
-    display: flex;
     border-collapse: collapse;
 }
+
+nav.navbar{
+    overflow: auto;
+    justify-content: space-evenly;
+    display: flex;
+}
+
 
 .navbar a{
     color: black;
@@ -295,7 +306,7 @@ input:checked + label.HPpages {
    border: 2px solid rgba(0, 0, 0, 0.288);
    padding: 25px;
    padding-bottom: 100px;
-   margin: 20px 200px;
+   margin: 5% 15%;
    border-radius: 5px;
     overflow: hidden;
     text-align: center;
@@ -389,6 +400,11 @@ div.orderproduct{
 #TAfilt:checked ~ .Techacc{
     display: block;
 }
+/*order amout placing logic*/
+.numberboxstyle{
+ max-width: 4%;
+  }
+
 
 
 /*/* Ang Kai Yuan's Styling*//*
@@ -403,16 +419,18 @@ div.orderproduct{
     height: auto;
 }
 .table1{
+    padding-top: 0;
+    margin-top: 0;
     margin-left: 10px;
+    display: inline-table;
     color: white
 }
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
 }
 
-
 .Product-table{
-    width: 97%;
+    max-width: 97%;
     display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
