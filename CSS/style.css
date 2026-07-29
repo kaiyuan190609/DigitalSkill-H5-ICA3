@@ -9,7 +9,9 @@ h1 {
 }
 
 @media (max-width:750px) {
-
+    .Vhide{
+        visibility: hidden;
+    }
 }
 
 /*/*Goh Yee Minh's Styling /**/
