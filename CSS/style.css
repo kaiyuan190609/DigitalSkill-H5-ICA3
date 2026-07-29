@@ -16,17 +16,24 @@ h1 {
     .navbar table{
         overflow-x: scroll;
     }
+    .table1{
+       overflow-x: scroll;
+    }
 }
 
 /*/*Goh Yee Minh's Styling /**/
 /* Nav bar styling */
 .navbar table{
     background-color: pink;
+    border-collapse: collapse;
+}
+
+nav.navbar{
     overflow: auto;
     justify-content: space-evenly;
     display: flex;
-    border-collapse: collapse;
 }
+
 
 .navbar a{
     color: black;
@@ -407,6 +414,7 @@ div.orderproduct{
 }
 .table1{
     padding-top: 0;
+    margin-top: 0;
     margin-left: 10px;
     color: white
 }
@@ -415,7 +423,7 @@ div.orderproduct{
 }
 
 .Product-table{
-    width: 97%;
+    width: auto;
     display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
