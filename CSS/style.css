@@ -19,6 +19,9 @@ h1 {
     .table1{
        overflow-x: scroll;
     }
+    .input{
+    width: 50%;
+    }
 }
 
 /*/*Goh Yee Minh's Styling /**/
@@ -26,12 +29,12 @@ h1 {
 .navbar table{
     background-color: pink;
     border-collapse: collapse;
+    justify-content: space-evenly;
+    display: flex;
 }
 
 nav.navbar{
     overflow: auto;
-    justify-content: space-evenly;
-    display: flex;
 }
 
 
@@ -401,7 +404,7 @@ div.orderproduct{
 }
 /*order amout placing logic*/
 .numberboxstyle{
- max-width: 4%;
+ max-width: 5%;
   }
 
 
