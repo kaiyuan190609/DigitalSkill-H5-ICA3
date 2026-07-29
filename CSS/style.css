@@ -9,17 +9,24 @@ h1 {
 }
 
 @media (max-width:750px) {
-    .TPtable div{
-        scale: 0.5;
-        
+    .Vhide{
+    visibility: hidden;     
+    }
+
+    nav.navbar{
+        overflow-x: scroll;
     }
 
     .navbar table{
-        overflow-x: scroll;
+    background-color: pink;
+    border-collapse: collapse;
+    display: flex;
     }
+
     .input{
     width: 50%;
     }
+
    .table1{
     display: none;
    }
@@ -28,10 +35,10 @@ h1 {
 /*/*Goh Yee Minh's Styling /**/
 /* Nav bar styling */
 .navbar table{
-    background-color: pink;
     border-collapse: collapse;
     justify-content: space-evenly;
     display: flex;
+    background-color: pink;
 }
 
 nav.navbar{
@@ -47,11 +54,13 @@ nav.navbar{
     text-align: center;
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
 }
 
 .navbar td{
     width: 200px;
     height: auto;
+    background-color: pink;
 }
 
 .navbar a:hover{
@@ -87,6 +96,7 @@ nav.navbar{
     color: rgba(0, 0, 0, 0.364);
     text-decoration: none;
     transition: 0.1s;
+    white-space: nowrap;
 }
 
 .bestinfo a:hover, .revinfo a:hover{
@@ -286,7 +296,7 @@ input:checked + label.HPpages {
 }
 
 #BestSellers:checked ~.extInfo .bestinfo{
-    transform: translateX(150px);
+    transform: translateX(160px);
     transition: 0.3s;
     visibility: visible;
 }
@@ -334,7 +344,7 @@ input:checked + label.HPpages {
    border: 2px solid rgba(0, 0, 0, 0.288);
    padding: 10px;
    padding-bottom: 50px;
-   margin: 20px 200px;
+   margin: 5vw 10vw;
    border-radius: 5px;
     overflow: hidden;
     text-align: center; 
