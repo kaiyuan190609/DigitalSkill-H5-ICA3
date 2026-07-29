@@ -399,6 +399,11 @@ div.orderproduct{
 #TAfilt:checked ~ .Techacc{
     display: block;
 }
+/*order amout placing logic*/
+.numberboxstyle{
+ max-width: 4%;
+  }
+
 
 
 /*/* Ang Kai Yuan's Styling*//*
