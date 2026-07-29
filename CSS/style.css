@@ -17,7 +17,7 @@ h1 {
 .navbar table{
     background-color: pink;
     overflow: auto;
-     justify-content: space-evenly;
+    justify-content: space-evenly;
     display: flex;
     border-collapse: collapse;
 }
@@ -400,6 +400,7 @@ div.orderproduct{
     height: auto;
 }
 .table1{
+    padding-top: 0;
     margin-left: 10px;
     color: white
 }
