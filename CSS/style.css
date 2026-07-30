@@ -25,6 +25,7 @@ h1 {
     
     label.filterbutton{
         overflow-x: scroll;
+        overflow-y: scroll;
     }
     .input{
     width: 50%;
