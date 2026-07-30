@@ -27,7 +27,7 @@ h1 {
         display: flex;
         flex-wrap:nowrap;
         gap: 20px;
-        overflow-x: scroll;
+        overflow-x: auto;
     }
     .input{
     width: 50%;
