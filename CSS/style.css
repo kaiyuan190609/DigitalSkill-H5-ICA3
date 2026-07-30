@@ -23,6 +23,9 @@ h1 {
     display: flex;
     }
     
+    label.filterbutton{
+        overflow-x: scroll;
+    }
     .input{
     width: 50%;
     }
