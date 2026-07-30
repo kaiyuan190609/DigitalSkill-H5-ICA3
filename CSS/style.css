@@ -16,8 +16,10 @@ h1 {
     .navbar table{
         overflow-x: scroll;
     }
+    
    .table1{
-    display: none;
+    display: block;
+    box-sizing: border-box;
    }
 }
 
