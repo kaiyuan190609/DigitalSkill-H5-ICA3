@@ -23,7 +23,7 @@ h1 {
     display: flex;
     }
     
-    label.filterbutton{
+    .filterbutton{
         overflow-x: scroll;
         overflow-y: scroll;
     }
