@@ -24,9 +24,7 @@ h1 {
     }
     
     .Buttons{
-        padding: 10px;
         overflow-x: scroll;
-        overflow-y: scroll;
     }
     .input{
     width: 50%;
