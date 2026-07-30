@@ -24,6 +24,8 @@ h1 {
     }
     
     .Buttons{
+        display: flex;
+        flex-wrap:nowrap ;
         overflow-x: scroll;
     }
     .input{
