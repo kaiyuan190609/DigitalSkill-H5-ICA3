@@ -25,7 +25,8 @@ h1 {
     
     .Buttons{
         display: flex;
-        flex-wrap:nowrap ;
+        flex-wrap:nowrap;
+        gap: 20px;
         overflow-x: scroll;
     }
     .input{
