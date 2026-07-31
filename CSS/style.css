@@ -52,7 +52,7 @@ h1 {
     }
 
     .numberboxstyle{
-    width: 10%;
+    width: 50%;
   }
 }
 
@@ -396,6 +396,7 @@ div.orderproduct{
     margin: 0;
     text-decoration: underline;
   }
+
 }
 
 #ACfilt:checked ~ .artcraft{
@@ -445,6 +446,25 @@ div.orderproduct{
 
 .Ordfilter{
     font-weight: bold;
+}
+
+.itemInfo summary{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.PreviewSum{
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+    background-color: pink;
+    padding:1px 0 ;
+}
+
+.PreviewSum:hover{
+    color: red;
+    transition: 0.2s;
+    background-color: rgb(255, 223, 228);
 }
 
 /*/* Ang Kai Yuan's Styling*//*
