@@ -50,6 +50,10 @@ h1 {
     .ratingstyle {
     scale: 0.8;
     }
+
+    .numberboxstyle{
+    width: 10%;
+  }
 }
 
 /*/*Goh Yee Minh's Styling /**/
@@ -338,7 +342,6 @@ input:checked + label.HPpages {
 /*order thank you styling*/
 .orderTY{
    display: block;
-   border: 2px solid rgba(0, 0, 0, 0.288);
    padding: 10px;
    padding-bottom: 50px;
    margin: 5vw 10vw;
@@ -348,7 +351,7 @@ input:checked + label.HPpages {
 }
 
 .orderTY h1{
-    color: black;
+    color: pink;
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -415,7 +418,34 @@ div.orderproduct{
  max-width: 6%;
   }
 
+/*orderpage styling*/
+.OrderForm{
+   display: block;
+   border: 2px solid rgba(0, 0, 0, 0.288);
+   padding: 25px;
+   padding-bottom: 100px;
+   margin: 5% 15%;
+   border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: whitesmoke;
+}
 
+.required{
+    color: red;
+}
+
+.input{
+    margin-bottom: 5px;
+}
+
+.Ordconfirm{
+    color: #333333b8;
+}
+
+.Ordfilter{
+    font-weight: bold;
+}
 
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
@@ -539,34 +569,6 @@ input:checked ~ .table1 .Product-table {
 }
 /*Filter Button Code modified from AI/ 
 
-/*orderpage styling(Collaborated with 261220A, Goh Yee Minh)*/
-.OrderForm{
-   display: block;
-   border: 2px solid rgba(0, 0, 0, 0.288);
-   padding: 25px;
-   padding-bottom: 100px;
-   margin: 5% 15%;
-   border-radius: 5px;
-    overflow: hidden;
-    text-align: center;
-    background-color: whitesmoke;
-}
-
-.required{
-    color: red;
-}
-
-.input{
-    margin-bottom: 5px;
-}
-
-.Ordconfirm{
-    color: #333333b8;
-}
-
-.Ordfilter{
-    font-weight: bold;
-}
 
 /*/ Shyeen Ong Styling//*
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
@@ -967,10 +969,15 @@ cursor: pointer;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
-    height: 15px;
-    width: auto;
+    height: auto;
+    width: 600px;
+    margin: 20px auto;
     font-size: 20px;
     line-height: 1.8;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    border-radius: 20px;
+    background-color: whitesmoke;
 }
 .ContactSubmit{
  position: relative;
@@ -978,10 +985,15 @@ cursor: pointer;
  margin: 0 50px;
  padding: 16px 50px;
  color: black;
- background: rgb(206, 148, 195);
+ background: rgb(226, 137, 210);
  border: none;
  cursor: pointer;
  border-radius: 20px;
+}
+.ContactSubmit:hover{
+    background: rgb(245, 204, 210);
+    color: black;
+    transform: scale(1.05);
 }
 .ContactHeader {
    color: white;
