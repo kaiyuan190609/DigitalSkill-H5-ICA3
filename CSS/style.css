@@ -962,10 +962,15 @@ cursor: pointer;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
-    height: 15px;
-    width: auto;
+    height: auto;
+    width: 600px;
+    margin: 20px auto;
     font-size: 20px;
     line-height: 1.8;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    border-radius: 20px;
+    background-color: whitesmoke;
 }
 .ContactSubmit{
  position: relative;
