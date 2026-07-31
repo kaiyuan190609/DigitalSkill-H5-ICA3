@@ -7,15 +7,64 @@ body{
 h1 {
     text-align: center;
 }
+
+@media (max-width:750px) {
+    .Vhide{
+    visibility: hidden;     
+    }
+
+    nav.navbar{
+        overflow-x: scroll;
+    }
+
+    .navbar table{
+    background-color: pink;
+    border-collapse: collapse;
+    display: flex;
+    }
+    
+    .Buttons{
+        display: flex;
+        flex-wrap:nowrap;
+        overflow-x: auto;
+    }
+    .input{
+    width: 50%;
+    }
+
+   .table1{
+    display: block;
+    box-sizing: border-box;
+   }
+
+   .table1{
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 2px !important;
+    }
+
+    .serial{
+        display: none;
+    }
+
+    .ratingstyle {
+    scale: 0.8;
+    }
+}
+
 /*/*Goh Yee Minh's Styling /**/
 /* Nav bar styling */
 .navbar table{
-    background-color: pink;
-    overflow: auto;
-     justify-content: space-evenly;
-    display: flex;
     border-collapse: collapse;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: pink;
 }
+
+nav.navbar{
+    overflow: auto;
+}
+
 
 .navbar a{
     color: black;
@@ -25,11 +74,13 @@ h1 {
     text-align: center;
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
 }
 
 .navbar td{
     width: 200px;
     height: auto;
+    background-color: pink;
 }
 
 .navbar a:hover{
@@ -65,6 +116,7 @@ h1 {
     color: rgba(0, 0, 0, 0.364);
     text-decoration: none;
     transition: 0.1s;
+    white-space: nowrap;
 }
 
 .bestinfo a:hover, .revinfo a:hover{
@@ -91,8 +143,8 @@ div.TP1{
     background-color: rgb(217, 189, 98);
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 20px;
     transform: translateY(-10px);
     border-radius: 12px;
@@ -128,14 +180,15 @@ div.Reviewcard{
     display: block;
     background-color: white;
     padding: 20px;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 12px;
     box-shadow: 3px 3px 10px rgb(58, 58, 58);
     transition: 0.2s;
     overflow: hidden;
     height: 100px;
     width: 250px;
+    
 }
 
 div.Reviewcard:hover{
@@ -198,6 +251,7 @@ label.HPpages:hover{
     justify-content: center;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 
@@ -262,7 +316,7 @@ input:checked + label.HPpages {
 }
 
 #BestSellers:checked ~.extInfo .bestinfo{
-    transform: translateX(150px);
+    transform: translateX(160px);
     transition: 0.3s;
     visibility: visible;
 }
@@ -283,12 +337,13 @@ input:checked + label.HPpages {
 .OrderForm{
    display: block;
    border: 2px solid rgba(0, 0, 0, 0.288);
-   padding: 10px;
+   padding: 25px;
    padding-bottom: 100px;
-   margin: 20px 200px;
+   margin: 5% 15%;
    border-radius: 5px;
     overflow: hidden;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .required{
@@ -303,20 +358,24 @@ input:checked + label.HPpages {
     color: #333333b8;
 }
 
+.Ordfilter{
+    font-weight: bold;
+}
+
 /*order thank you styling*/
 .orderTY{
    display: block;
    border: 2px solid rgba(0, 0, 0, 0.288);
    padding: 10px;
    padding-bottom: 50px;
-   margin: 20px 200px;
+   margin: 5vw 10vw;
    border-radius: 5px;
     overflow: hidden;
     text-align: center; 
 }
 
 .orderTY h1{
-    color: pink;
+    color: black;
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -349,6 +408,42 @@ input:checked + label.HPpages {
     transition: 0.2s;
 }
 
+/*ordering logic style*/
+div.orderproduct{
+    margin:5px ;
+}
+
+.orderproduct{
+  display: none;
+  p{
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+  }
+}
+
+#ACfilt:checked ~ .artcraft{
+    display: block;
+}
+
+#Calfilt:checked ~ .Calcu{
+    display: block;
+}
+
+#WIfilt:checked ~ .Writeins{
+    display: block;
+}
+
+#TAfilt:checked ~ .Techacc{
+    display: block;
+}
+/*order amout placing logic*/
+.numberboxstyle{
+ max-width: 6%;
+  }
+
+
+
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
 .B1{
@@ -361,15 +456,18 @@ input:checked + label.HPpages {
     height: auto;
 }
 .table1{
+    padding-top: 0;
+    margin-top: 0;
     margin-left: 10px;
+    display: inline-table;
+    color: white
 }
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
 }
 
-
 .Product-table{
-    width: 97%;
+    max-width: 97%;
     display: inline-table;
     vertical-align: center;
     margin-bottom: 15px;
@@ -381,28 +479,42 @@ input:checked + label.HPpages {
     margin-bottom: 5px;
     text-decoration: underline;
     text-underline-offset: 6px;
+    color: black;
 }
 .Product-table th{
     background-color: rgb(217, 189, 98);
     font-weight: bold;
-    height: 50px;
+    max-height: 50px;
 }
 .Product-table th, .Product-table td {
     padding: 10px;
     text-align: left;
+    color: black;
 }
+
 .Product-table tr:nth-child(even) {
     background-color: #cacaca;
+}
+.Product-table tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+#footer{
+    color: black;
 }
 /*Product-tabe tr:nth-child(even) code modified from W3 Schools: https://www.w3schools.com/howto/howto_css_table_zebra.asp / 
 
 /*Filter Button styling*/
+.filterbutton:hover{
+    box-shadow: 6px 6px 14px #999;
+}
+
 input[type="radio"] {
   display: none;
 }
 
 label.filterbutton {
   padding: 8px 12px;
+  border-radius: 20px;
   background: #eee;
   cursor: pointer;
   margin-right: 5px;
@@ -466,8 +578,10 @@ input:checked ~ .table1 .Product-table {
     border-radius: 8px;
     background-size: cover;
     overflow: auto;
-    
+    animation-name: myAnimation;
+    animation-duration: 1s;
 }
+
 
 details.mathbg{
         background-image: url("Imgs/MathBackground.png"); /*This image is AI generated*/
@@ -549,7 +663,11 @@ details.scibg{
     }
 }
 
-.GeneralStudyMethods h2 li {
+.GeneralStudyMethods li {
+    text-align:justify;
+    color: white;
+}
+.GeneralStudyMethods h2{
     text-align:justify;
     color: white;
 }
@@ -695,42 +813,49 @@ div.GeneralStudyMethods {
 
 /*/*Abel's Styling*/
 
-.our-vision{
-display: block;
-background: pink;
-padding: 50px;
+div.our-vision{
+display:flex;
+background:pink;
+padding: 30px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
-max-width: 900px;
+width: 75%;
 margin: 0 auto;
+text-align: center;
+
+
 }
 
 .our-vision img{
-    scale: 50%;
-    transform: translateX(-650px);
-    margin: -30% auto;
+   max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    /*code from https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window*/
 }
 
 .our-mission{
- background: rgb(217, 189, 98);
-padding: 50px;
+display:flex;
+background: rgb(217, 189, 98);
+padding: 30px;
 border-radius: 12px;
 box-shadow: 4px 4px
 10px #B9B9B9;
-max-width: 900px;
+width: 75%;
 margin: 0 auto;
+justify-content: center;
 }
 
 .our-mission img{
-    scale: 50%;
-    transform: translateX(-650px);
-    margin: -30% auto;
+   max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    /*code from https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window*/
 }
 
 .our-story{
 background: pink;
-padding: 50px;
+padding: 30px;
 border-radius: 16px;
 box-shadow: 4px 4px
 10px #B9B9B9;
@@ -741,7 +866,7 @@ margin: 0 auto;
 
 .answer{
  background: pink;
-padding: 50px;
+padding: 30px;
 border-radius: 16px;
 box-shadow: 4px 4px
 10px #B9B9B9;
@@ -752,6 +877,11 @@ font-size: larger;
 
 .question{
     font-size:larger;
+    margin-left: 20px;
+}
+
+.question:hover{
+    color:#8f8f8f
 }
 
 
@@ -759,8 +889,65 @@ font-size: larger;
     cursor: pointer;
 }
 
+.faq-text{
+margin-left:10px ;
+}
+
+.vision-text{
+margin: auto;
+text-align: center;
+list-style: none;
+background: pink;
+padding: 10px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 200px;
+cursor: pointer;
+}
+
+.vision-text:hover{
+    background-color: rgb(255,223,228);
+}
 
 
+.mission-text{
+margin: auto;
+text-align: center;
+list-style: none;
+background: rgb(217, 189, 98);
+padding: 10px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 200px;
+cursor: pointer;
+}
+
+.mission-text:hover{
+        background-color: rgb(255, 239, 188);
+
+}
+
+.story-text{
+margin: auto;
+text-align: center;
+list-style: none;
+margin: auto;
+text-align: center;
+list-style: none;
+background: pink;
+padding: 10px;
+border-radius: 16px;
+box-shadow: 4px 4px
+10px #B9B9B9;
+max-width: 200px;
+cursor: pointer;
+}
+
+.story-text:hover{
+        background-color: rgb(255,223,228);
+}
 
 /*/* Richard's Styling*//*
 /*Contact page style(Richard lol)*/
@@ -791,5 +978,21 @@ border: none;
 border-radius: 20px;
 background:
 linear-gradient(
-#eceb9d, #e7b5e1);
+pink, #f7e9f5);
+}
+.ratingstyle {
+    display: flex;
+     flex-direction: row;
+    justify-content: center;
+}
+.ratingstyle input {
+    display: none;
+}
+.ratingstyle label {
+    font-size: 35px;
+    color: gold;
+    cursor: pointer;
+}
+.ratingstyle input:checked + label ~ label{
+color: #838383 ;
 }

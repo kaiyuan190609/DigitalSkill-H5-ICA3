@@ -2,12 +2,13 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>The Pencil Box-Contact</title>
         <meta charset="UTF-8">
+         <title>The Pencil Box-Contact</title>
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
         <link rel="icon" href="PencilBoxIcon.png">
-        </html>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
 </head>
 
   <body>
@@ -19,7 +20,7 @@
          <nav class="navbar">
             <table>
             <tr>
-                <td><a href="Homepage.html">Home</a></td>
+                <td><a href="index.html">Home</a></td>
                 <td><a href="Productpage.html">Products</a></td>
                 <td><a href="Order.html">Order</a></td>
                 <td><a href="Contact.html">Feedback/Enquiries</a></td>
@@ -28,6 +29,7 @@
             </tr>
             </table>
         </nav><!--adjusted nav bar design from Bro Code https://www.youtube.com/watch?v=f3uCSh6LIY0-->
+        <br>
     <main>
      <div class="secretintern">
      <header class="ContactHeader">
@@ -38,32 +40,60 @@
       <p>Office Address: 123 Nanyang Street,Tekong</p>
       <p>Opening hours: Monday - Friday, 9:00 AM - 5:00 PM</p>
        <form action="thankyou.html" method="get">
-          <label  for="custname">Your name:</label>
+          <label  for="custname">Name:</label>
          <input type="text" name="custname" id="custname" size="30"
          placeholder="E.g John grace" required>
          <br>
-         <label for="email">Your email:</label>
+         <label for="email">Email:</label>
          <input type="email" name="email" id="email" size="30" placeholder="E.g you@example.com" required>
          <br>
         
      <br>   
-            <labelfor="feedback">Your feedback:</label>
+            <label for="feedback">Feedback:</label>
             <textarea name="feedback" id="feedback" rows="5" cols="30" placeholder="E.g I like your website!" required></textarea>
              <br>
-            <label for="rating">Rate our services!(10 being the best)</label>
-            <input type="range" 
-            id="rating"  
-            min="0" max="10" 
-            step="1" value="5"
-            oninput="this.nextElementSibling.value = this.value">
-             <output for="rating">5</output>
-            </br>
-            <br><input type="submit" value="Submit" class="ContactSubmit"></br>
-            <br><input type="reset" value="Reset" class="ContactSubmit"></br>
+            <label>Rate our services!(10 being the best)</label>
+            <div class="ratingstyle"> <!--Source:https://www.youtube.com/watch?v=lW8-w66v9CQ-->
+            <input type="radio" name="rating" id="rating1">
+            <label for="rating1" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating2">
+            <label for="rating2" class="fa fa-star"></label>
+ 
+            <input type="radio" name="rating" id="rating3">
+            <label for="rating3" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating4">
+            <label for="rating4" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating5">
+            <label for="rating5" class="fa fa-star"></label>
+
+            
+            <input type="radio" name="rating" id="rating6">
+            <label for="rating6" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating7">
+            <label for="rating7" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating8">
+            <label for="rating8" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating9">
+            <label for="rating9" class="fa fa-star"></label>
+
+            <input type="radio" name="rating" id="rating10">
+            <label for="rating10" class="fa fa-star"></label>
+            </div>
+            <br>
+            <input type="submit" value="Submit" class="ContactSubmit">
+            <br>
+            <br>
+            <input type="reset" value="Reset" class="ContactSubmit">
             </form>
             <hr>
     <p id="footer">© 2026 THE PENCIL B<span style="color: pink;">O</span>X</p>
-     </br>
+     <br>
      
   </div>
  
