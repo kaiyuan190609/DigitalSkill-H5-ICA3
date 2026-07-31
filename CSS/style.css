@@ -34,7 +34,7 @@ h1 {
    .table1{
     padding-top: 0;
     margin-top: 0;
-    margin-left: 0px !important;
+    margin-left: 2px !important;
     }
 
     .serial{
@@ -352,6 +352,10 @@ input:checked + label.HPpages {
     color: #333333b8;
 }
 
+.Ordfilter{
+    font-weight: bold;
+}
+
 /*order thank you styling*/
 .orderTY{
    display: block;
@@ -365,7 +369,7 @@ input:checked + label.HPpages {
 }
 
 .orderTY h1{
-    color: pink;
+    color: black;
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -429,7 +433,7 @@ div.orderproduct{
 }
 /*order amout placing logic*/
 .numberboxstyle{
- max-width: 5%;
+ max-width: 6%;
   }
 
 
