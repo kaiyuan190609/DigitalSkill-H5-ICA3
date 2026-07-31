@@ -22,13 +22,19 @@ h1 {
     border-collapse: collapse;
     display: flex;
     }
-
+    
+    .Buttons{
+        display: flex;
+        flex-wrap:nowrap;
+        overflow-x: auto;
+    }
     .input{
     width: 50%;
     }
 
    .table1{
-    display: none;
+    display: block;
+    box-sizing: border-box;
    }
 
    .table1{
@@ -979,7 +985,7 @@ border: none;
 border-radius: 20px;
 background:
 linear-gradient(
-#eceb9d, #e7b5e1);
+pink, #f7e9f5);
 }
 .ratingstyle {
     display: flex;
