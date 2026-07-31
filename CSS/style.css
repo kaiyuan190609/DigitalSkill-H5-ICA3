@@ -50,6 +50,10 @@ h1 {
     .ratingstyle {
     scale: 0.8;
     }
+
+    .numberboxstyle{
+    width: 10%;
+  }
 }
 
 /*/*Goh Yee Minh's Styling /**/
@@ -365,7 +369,6 @@ input:checked + label.HPpages {
 /*order thank you styling*/
 .orderTY{
    display: block;
-   border: 2px solid rgba(0, 0, 0, 0.288);
    padding: 10px;
    padding-bottom: 50px;
    margin: 5vw 10vw;
@@ -375,7 +378,7 @@ input:checked + label.HPpages {
 }
 
 .orderTY h1{
-    color: black;
+    color: pink;
     font-size: 50px;
     margin-bottom: 50px;
 }
