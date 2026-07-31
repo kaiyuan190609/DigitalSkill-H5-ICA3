@@ -449,6 +449,11 @@ div.orderproduct{
 
 /*/* Ang Kai Yuan's Styling*//*
 /* Product Table styling */
+.B1{
+    width: 97%;
+    margin-left: 10px;
+    height: auto;
+}
 .I1{
     width: 120px;
     height: auto;
@@ -457,9 +462,7 @@ div.orderproduct{
    text-align: center;
    margin-right: 45px;
 }
-.OrderForm h1{
-    text-underline-offset: 10px;
-}
+
 .table1{
     padding-top: 0;
     margin-top: 0;
@@ -497,7 +500,7 @@ div.orderproduct{
 }
 .label{
     color: black;
-    font-size: 20px;
+    font-size: 19px;
 }
 .Product-table h2{
     font-size: 15px;
