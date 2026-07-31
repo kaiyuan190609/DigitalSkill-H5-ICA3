@@ -506,6 +506,16 @@ div.orderproduct{
     text-align: left;
     color: black;
 }
+.label{
+    color: black;
+    font-size: 20px;
+}
+.Product-table h2{
+    font-size: 15px;
+}
+.Product-table h2,p{
+    color: #64748B;
+}
 
 .Product-table tr:nth-child(even) {
     background-color: #cacaca;
