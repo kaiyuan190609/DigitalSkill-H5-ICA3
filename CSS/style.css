@@ -973,10 +973,15 @@ cursor: pointer;
  margin: 0 50px;
  padding: 16px 50px;
  color: black;
- background: rgb(206, 148, 195);
+ background: rgb(226, 137, 210);
  border: none;
  cursor: pointer;
  border-radius: 20px;
+}
+.ContactSubmit:hover{
+    background: rgb(245, 204, 210);
+    color: black;
+    transform: scale(1.05);
 }
 .ContactHeader {
    color: white;
