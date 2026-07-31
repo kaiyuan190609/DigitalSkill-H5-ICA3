@@ -450,6 +450,13 @@ div.orderproduct{
     width: 120px;
     height: auto;
 }
+.Title{
+   text-align: center;
+   margin-right: 45px;
+}
+.OrderForm h1{
+    text-underline-offset: 10px;
+}
 .table1{
     padding-top: 0;
     margin-top: 0;
@@ -460,7 +467,6 @@ div.orderproduct{
 .Product-table,.Product-table th,.Product-table td{
     border: 1.3px solid black;
 }
-
 .Product-table{
     max-width: 97%;
     display: inline-table;
