@@ -23,7 +23,7 @@ h1 {
     display: flex;
     }
     
-    .BT{
+    .BT .filterbutton{
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
