@@ -25,6 +25,7 @@ h1 {
     
     .BT .filterbutton{
         display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
         overflow-x: auto;
     }
