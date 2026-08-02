@@ -28,6 +28,7 @@ h1 {
         flex-direction: row;
         flex-wrap: nowrap;
         overflow-x: auto;
+        margin: 6px;
     }
     .input{
     width: 50%;
@@ -522,6 +523,11 @@ div.orderproduct{
 .label{
     color: black;
     font-size: 19px;
+    text-decoration: none;
+}
+.label:hover{
+    color: rgb(255, 70, 70);
+    text-decoration: underline;
 }
 .Product-table h2{
     font-size: 15px;
@@ -573,11 +579,11 @@ input:checked ~ .table1 .Product-table {
   display: inline-table;
 }
 
-input#AnC:checked ~ .table1 .AC {
+#AnC:checked ~ .table1 .AC {
   display: inline-table;
 }
 
-input#Calc:checked ~ .table1 .Cal {
+#Calc:checked ~ .table1 .Cal {
   display: inline-table;
   margin-top: -2%;
 }
