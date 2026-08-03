@@ -54,7 +54,7 @@ h1 {
     }
 
     .numberboxstyle{
-    width: 50%;
+    width: 35px;
   }
 }
 
@@ -608,11 +608,11 @@ input:checked ~ .table1 .Product-table {
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 20vh;
-    padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -626,8 +626,6 @@ input:checked ~ .table1 .Product-table {
     border-radius: 8px;
     background-size: cover;
     overflow: auto;
-    animation-name: myAnimation;
-    animation-duration: 1s;
 }
 
 
@@ -693,14 +691,16 @@ details.scibg{
     transform: translateY(-10px);
     border-radius: 12px;
     box-shadow: 3px 3px 5px lightpink;
-    transition: 0.2s;
-    transform:scale(0.9);
     overflow: hidden;
 }
 
 .GeneralStudyGuide table {
+    width: 95%;
     border-collapse: collapse;
     border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
     td, th {
         border: 2px solid black;
         padding: 15px;
@@ -712,17 +712,19 @@ details.scibg{
 }
 
 .GeneralStudyMethods li {
-    text-align:justify;
+    text-align: justify;
     color: white;
+    
+    h3 {
+        backdrop-filter: blur(10px);
+    }
 }
+
 .GeneralStudyMethods h2{
     text-align:justify;
     color: white;
 }
 
-.GeneralStudyMethods h3 ul li {
-    backdrop-filter: blur(10px);
-}
 
 div.GeneralStudyMethods {
     display: block;
@@ -835,8 +837,15 @@ div.GeneralStudyMethods {
     margin-top: 0;
     margin-bottom: 0;
     margin: 0 auto;
+    color: white;
     h2, h3 {
         color: white;
+    }
+
+    ul li {
+        font-size: larger;
+        backdrop-filter: blur(10px);
+        text-align: center;
     }
 }
 
@@ -852,8 +861,15 @@ div.GeneralStudyMethods {
     margin-top: 0;
     margin-bottom: 0;
     margin: 0 auto;
-    h2, h3 {
+    
+    h3, h2 {
         color: black;
+    }
+
+    ul li {
+        font-size: larger;
+        backdrop-filter: blur(10px);
+        text-align: center;
     }
 }
 
@@ -1004,7 +1020,7 @@ cursor: pointer;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     height: auto;
-    width: 600px;
+    width: auto;
     margin: 20px auto;
     font-size: 20px;
     line-height: 1.8;
