@@ -8,6 +8,14 @@ h1 {
     text-align: center;
 }
 
+#footer{
+    color: black;
+    background-color: pink;
+    width: 100%;       
+    padding: 20px 0;   
+    margin: 0;   
+}
+
 @media (max-width:750px) {
     .Vhide{
     visibility: hidden;     
@@ -540,9 +548,7 @@ div.orderproduct{
 .Product-table tr:nth-child(odd) {
     background-color: whitesmoke;
 }
-#footer{
-    color: black;
-}
+
 /*Product-tabe tr:nth-child(even) code modified from W3 Schools: https://www.w3schools.com/howto/howto_css_table_zebra.asp / 
 
 /*Filter Button styling*/
@@ -1026,8 +1032,9 @@ cursor: pointer;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     height: auto;
-    width: 600px;
+    width: auto;
     margin: 20px auto;
+    margin-right: 10px auto ;
     font-size: 20px;
     line-height: 1.8;
     padding: 20px;
