@@ -8,6 +8,13 @@ h1 {
     text-align: center;
 }
 
+#footer{
+    color: black;
+    width: 100%;       
+    padding: 20px 0;   
+    margin: 0;   
+}
+
 @media (max-width:750px) {
     .Vhide{
     visibility: hidden;     
@@ -54,7 +61,7 @@ h1 {
     }
 
     .numberboxstyle{
-    width: 50%;
+    width: 35px;
   }
 }
 
@@ -175,7 +182,6 @@ div.TP1:hover{
 
 .TP1 h3{
     text-align: center;
-    font-size: auto;
     margin-bottom: 5px;
     padding-bottom: 5px;
     margin-top: 0px;
@@ -206,7 +212,6 @@ div.Reviewcard:hover{
 
 .Reviewcard h3{
     text-align: left;
-    font-size: auto;
     margin-bottom:0;
     margin-top: 0px;
     color: gold;
@@ -274,7 +279,7 @@ input:checked + label.HPpages {
 }
 
 #BestSellers:checked ~.HomeViewT h2.TPtitle{
-    transform: translateX(75px);
+    transform: translateX(60px);
     transition: 0.3s;
     visibility: visible;
 }
@@ -286,7 +291,7 @@ input:checked + label.HPpages {
 }
 
 #Reviews:checked ~.HomeViewT h2.Reviews{
-    transform: translateX(-125px);
+    transform: translateX(-110px);
     transition: 0.3s;
     visibility: visible;
 }
@@ -393,13 +398,13 @@ div.orderproduct{
 
 .orderproduct{
   display: none;
-  p{
+}
+
+.orderproduct   p{
     font-weight: bold;
     margin: 0;
     text-decoration: underline;
   }
-
-}
 
 #ACfilt:checked ~ .artcraft{
     display: block;
@@ -542,9 +547,7 @@ div.orderproduct{
 .Product-table tr:nth-child(odd) {
     background-color: whitesmoke;
 }
-#footer{
-    color: black;
-}
+
 /*Product-tabe tr:nth-child(even) code modified from W3 Schools: https://www.w3schools.com/howto/howto_css_table_zebra.asp / 
 
 /*Filter Button styling*/
@@ -600,7 +603,7 @@ input:checked ~ .table1 .Product-table {
 /*Filter Button Code modified from AI/ 
 
 
-/*/ Shyeen Ong Styling//*
+/* Shyeen Ong Styling */
 /*Study-tips page style(SHYEEN ONG SERN YI)*/
 .Study-tips-main {
     display: flex;
@@ -637,12 +640,12 @@ details.artbg{
 
 details.lingbg{
         background-image: url("Imgs/LinguisticsAndWritingBackground.png"); /*This image is AI generated*/
-        background-color: dark green;
+        background-color: darkgreen;
 }
 
 details.scibg{
         background-image: url("Imgs/SciencesBackground.png"); /*This image is AI generated*/
-        background-color: dark blue;
+        background-color: darkblue;
 }
 
 .GeneralStudyGuide h1 {
@@ -697,23 +700,27 @@ details.scibg{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    td, th {
-        border: 2px solid black;
-        padding: 15px;
-    }
-    th {
-        background-color: gray;
-        color: white;
-    }
+}
+
+.GeneralStudyGuide table td{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.GeneralStudyGuide table th{
+    background-color: gray;
+    color: white;
+    border: 2px solid black;
+    padding: 15px;
 }
 
 .GeneralStudyMethods li {
     text-align: justify;
     color: white;
-    
-    h3 {
-        backdrop-filter: blur(10px);
-    }
+}
+
+.GeneralStudyMethods li h3 {
+    backdrop-filter: blur(10px);
 }
 
 .GeneralStudyMethods h2{
@@ -749,18 +756,20 @@ div.GeneralStudyMethods {
     margin-right: auto;
     border-collapse: collapse;
     border: 2px white solid;
-    tr, th, td {
-        padding: 10px;
-        margin: auto;
-        border: 2px white solid;
-        color: white;
-    }
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 75px;
-        height: 75px;
-    }
+}
+
+.MathTable tr,.MathTable th,.MathTable td {
+    padding: 10px;
+    margin: auto;
+    border: 2px white solid;
+    color: white;
+}
+
+.MathTable img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
 }
 
 .ArtTable {
@@ -768,18 +777,20 @@ div.GeneralStudyMethods {
     margin-right: auto;
     border-collapse: collapse;
     border: 2px black solid;
-    tr, th, td {
-        padding: 10px;
-        margin: auto;
-        border: 2px black solid;
-        color: black;
-    }
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 75px;
-        height: 75px;
-    }
+}
+
+.ArtTable tr,.ArtTable th,.ArtTable td {
+    padding: 10px;
+    margin: auto;
+    border: 2px black solid;
+    color: black;
+}
+
+.ArtTable img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
 }
 
 .LingTable {
@@ -788,18 +799,19 @@ div.GeneralStudyMethods {
     margin-right: auto;
     border-collapse: collapse;
     border: 2px white solid;
-    tr, th, td {
-        padding: 10px;
-        margin: auto;
-        border: 2px white solid;
-        color: white;
-    }
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 75px;
-        height: 75px;
-    }
+}
+
+.LingTable tr,.LingTable th,.LingTable td {
+    padding: 10px;
+    margin: auto;
+    border: 2px white solid;
+    color: white;
+}
+.LingTable img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
 }
 
 .SciTable {
@@ -808,18 +820,20 @@ div.GeneralStudyMethods {
     margin-right: auto;
     border-collapse: collapse;
     border: 2px white solid;
-    tr, th, td {
-        padding: 10px;
-        margin: auto;
-        border: 2px white solid;
-        color: white;
-    }
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 75px;
-        height: 75px;
-    }
+}
+
+.sciTable tr,.SciTable th,.SciTable td {
+    padding: 10px;
+    margin: auto;
+    border: 2px white solid;
+    color: white;
+}
+
+.SciTable img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
 }
 
 .MLSTips {
@@ -835,15 +849,16 @@ div.GeneralStudyMethods {
     margin-bottom: 0;
     margin: 0 auto;
     color: white;
-    h2, h3 {
-        color: white;
-    }
+}
 
-    ul li {
-        font-size: larger;
-        backdrop-filter: blur(10px);
-        text-align: center;
-    }
+.MLSTips h2,.MLSTips h3 {
+    color: white;
+}
+
+.MLSTips ul li {
+    font-size: larger;
+    backdrop-filter: blur(10px);
+    text-align: center;
 }
 
 .ArtTips {
@@ -858,16 +873,6 @@ div.GeneralStudyMethods {
     margin-top: 0;
     margin-bottom: 0;
     margin: 0 auto;
-    
-    h3, h2 {
-        color: black;
-    }
-
-    ul li {
-        font-size: larger;
-        backdrop-filter: blur(10px);
-        text-align: center;
-    }
 }
 
 .Study-tips-main img:hover {
@@ -876,6 +881,16 @@ div.GeneralStudyMethods {
     filter: brightness(1.1);
 }
 
+    
+.ArtTips h3,.ArtTips h2 {
+    color: black;
+}
+
+.ArtTips ul li {
+    font-size: larger;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
 
 
 /*/*Abel's Styling*/
@@ -1023,8 +1038,9 @@ cursor: pointer;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     height: auto;
-    width: 600px;
+    width: auto;
     margin: 20px auto;
+    margin-right: 10px auto ;
     font-size: 20px;
     line-height: 1.8;
     padding: 20px;
