@@ -740,10 +740,11 @@ div.GeneralStudyMethods {
     padding: 50px;
     padding-top: 25px;
     padding-bottom: 30px;
+    padding-right: 70px;
     border-radius: 12px;
     box-shadow: 4px 4px
     10px #B9B9B9;
-    max-width: 1200px;
+    max-width: 88%;
     margin-top: 0;
     margin-bottom: 0;
     margin: 0 auto;
@@ -872,6 +873,12 @@ div.GeneralStudyMethods {
     margin-top: 0;
     margin-bottom: 0;
     margin: 0 auto;
+}
+
+.Study-tips-main img:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+    filter: brightness(1.1);
 }
 
     
