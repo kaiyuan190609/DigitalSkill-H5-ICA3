@@ -714,6 +714,11 @@ details.scibg{
     padding: 15px;
 }
 
+.GeneralStudyGuideText h3 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 .GeneralStudyMethods li {
     text-align: justify;
     color: white;
