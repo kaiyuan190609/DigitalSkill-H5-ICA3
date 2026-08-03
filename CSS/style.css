@@ -1016,7 +1016,7 @@ cursor: pointer;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     height: auto;
-    width: 600px;
+    width: auto;
     margin: 20px auto;
     font-size: 20px;
     line-height: 1.8;
