@@ -10,7 +10,6 @@ h1 {
 
 #footer{
     color: black;
-    background-color: pink;
     width: 100%;       
     padding: 20px 0;   
     margin: 0;   
@@ -280,7 +279,7 @@ input:checked + label.HPpages {
 }
 
 #BestSellers:checked ~.HomeViewT h2.TPtitle{
-    transform: translateX(75px);
+    transform: translateX(60px);
     transition: 0.3s;
     visibility: visible;
 }
@@ -292,7 +291,7 @@ input:checked + label.HPpages {
 }
 
 #Reviews:checked ~.HomeViewT h2.Reviews{
-    transform: translateX(-125px);
+    transform: translateX(-110px);
     transition: 0.3s;
     visibility: visible;
 }
