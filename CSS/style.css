@@ -1012,12 +1012,11 @@ cursor: pointer;
 /*/* Richard's Styling*//*
 /*Contact page style(Richard lol)*/
 .secretintern{
-    display: flex;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     height: auto;
-    width: 400px;
+    width: auto;
     margin: 20px auto;
     font-size: 20px;
     line-height: 1.8;
