@@ -61,7 +61,7 @@ h1 {
     }
 
     .numberboxstyle{
-    width: 35px;
+    width: 50%;
   }
 }
 
@@ -327,7 +327,7 @@ input:checked + label.HPpages {
 }
 
 #BestSellers:checked ~.extInfo .bestinfo{
-    transform: translateX(160px);
+    transform: translateX(85px);
     transition: 0.3s;
     visibility: visible;
 }
@@ -339,7 +339,7 @@ input:checked + label.HPpages {
 }
 
 #Reviews:checked ~.extInfo .revinfo{
-    transform: translateX(-205px);
+    transform: translateX(-110px);
     transition: 0.3s;
     visibility: visible;
 }
