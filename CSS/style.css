@@ -712,6 +712,11 @@ details.scibg{
     padding: 15px;
 }
 
+.GeneralStudyGuideText h3 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 .GeneralStudyMethods li {
     text-align: justify;
     color: white;
@@ -1036,9 +1041,9 @@ cursor: pointer;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     height: auto;
-    width: auto;
+    width: 90%;
+    max-width: 600px;
     margin: 20px auto;
-    margin-right: 10px auto ;
     font-size: 20px;
     line-height: 1.8;
     padding: 20px;
